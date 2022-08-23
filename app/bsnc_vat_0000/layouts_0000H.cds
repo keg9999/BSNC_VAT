@@ -150,6 +150,7 @@ annotate service.BSNC_VAT_0000H with @(
             {Value : CODE},
             {Value : NAME},
             {Value : REMARK},
+            
         ]
     },
     

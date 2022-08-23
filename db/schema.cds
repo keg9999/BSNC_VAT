@@ -10,16 +10,16 @@ entity BSNC_VAT_0000H : managed{
     UNACTIVE : String(1) default 'N';	//비활성		
     STRDATE	: DateTime default '2000-01-01'; //효력시작일		
     ENDDATE	: DateTime default '2100-12-31'; //효력종료일		
-    key CODE :	String(30); //중복 X		
+    CODE :	String(30); //중복 X		
     NAME :	String(100);		
     REMARK : String(200);
-    BSNC_VAT_0000L : Composition of many BSNC_VAT_0000L on BSNC_VAT_0000L.PARENT = $self;
+    BSNC_VAT_0000L : Composition of many BSNC_VAT_0000L on BSNC_VAT_0000L.P_OBJECTNUM = $self;
 }
 
 entity BSNC_VAT_0000L{
-    key UUID_0000L : UUID;
-    PARENT : Association to one BSNC_VAT_0000H; 	//parent 오브젝트		   
-    CODE : String(30);
+    key UUID_0000 : UUID;
+    P_OBJECTNUM : Association to one BSNC_VAT_0000H; 	//BSNC_VAT_0000H.OBJECTNUM	   
+    //CODE : Association to one BSNC_VAT_0000H;
     LINEID : Integer; 		
     GCODE : String(50);	
     GNAME :	String(100);		

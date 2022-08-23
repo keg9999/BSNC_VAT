@@ -124,7 +124,7 @@
                             "controlConfiguration": {
                                 "@com.sap.vocabularies.UI.v1.LineItem": {
                                     "tableSettings": {
-                                        "enableExport": true
+                                        "enableExport": true           
                                     }
                                 }
                             },
@@ -140,7 +140,22 @@
                         "settings": {
                             "editableHeaderContent": false,
                             "entitySet": "BSNC_VAT_0000H",
-                            "navigation": {}
+                            "navigation": {},
+                            "controlConfiguration": {
+                                "BSNC_VAT_0000L/@com.sap.vocabularies.UI.v1.LineItem": {
+                                    "tableSettings": {
+                                        "type": "ResponsiveTable",
+                                        "personalization": {
+                                            "column": true,
+                                            "sort": true
+                                        },
+                                        "creationMode": {
+                                            "name": "Inline",
+                                            "createAtEnd": true
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }

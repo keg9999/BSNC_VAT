@@ -17,7 +17,7 @@ annotate service.BSNC_VAT_0000L with @(
     UI.PresentationVariant : {
         SortOrder       : [
             {
-                Property    : CODE,
+                Property    : GCODE,
                 Descending  : false,
             },
         ],
