@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>부가세 관리</title>
+    <style>
+        html, body, body > div, #container, #container-uiarea {
+            height: 100%;
+        }
+    </style>
+        <script>
+            window["sap-ushell-config"] = {
+                defaultRenderer: "fiori2",
+                applications: {
+                    "bsnc_vat_0000-app": {
+                        title: "공통코드 관리",
+                        description: "공통으로 사용되는 코드를 관리 함",
+                        additionalInformation: "SAPUI5.Component=ns.bsncvat0000",
+                        applicationType: "URL",
+                        url: "./bsnc_vat_0000/webapp",
+                        navigationMode: "embedded"
+                    },
+                    "bsnc_vat_0010-app": {
+                        title: "환경설정",
+                        description: "부가세 신고를 위한 기준 정보를 관리 함",
+                        additionalInformation: "SAPUI5.Component=ns.bsncvat0010",
+                        applicationType: "URL",
+                        url: "./bsnc_vat_0010/webapp",
+                        navigationMode: "embedded"
+                    }
+                    // "mitigations-app": {
+                    //     title: "Mitigations",
+                    //     description: "Mitigations",
+                    //     additionalInformation: "SAPUI5.Component=ns.mitigations",
+                    //     applicationType: "URL",
+                    //     url: "./mitigations/webapp",
+                    //     navigationMode: "embedded"
+                    // }
+                }
+            };
+        </script>
+
+     <script src="https://ui5.sap.com/test-resources/sap/ushell/bootstrap/sandbox.js"></script>
+     <script
+         src="https://ui5.sap.com/resources/sap-ui-core.js"
+         data-sap-ui-libs="sap.m, sap.ushell, sap.fe.templates"
+         data-sap-ui-compatVersion="edge"
+         data-sap-ui-theme="sap_fiori_3"
+         data-sap-ui-frameOptions="allow"
+         data-sap-ui-bindingSyntax="complex"
+     ></script>
+  <script>
+            sap.ui.getCore().attachInit(function() {
+                sap.ushell.Container.createRenderer().placeAt('content');
+            });
+        </script>
+    </head>
+    <body class="sapUiBody" id="content"></body>
+</html>
+</head>
+
+<body class="sapUiBody sapUiSizeCompact" id="content"></body>
+</html>
