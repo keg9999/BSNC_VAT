@@ -1,10 +1,10 @@
-using BSNC_VAT_0040_SERVICE from '../../srv/BSNC_VAT_SERVICE';
+using BSNC_VAT_0050_SERVICE from '../../srv/BSNC_VAT_SERVICE';
 
 //
 // annotations that control the behavior of fields and actions
 //
 
-annotate BSNC_VAT_0040_SERVICE.BSNC_VAT_0040H {
+annotate BSNC_VAT_0050_SERVICE.BSNC_VAT_0050H {
     COMPANYCD                                   @mandatory;
     OBJECTCODE                                  @mandatory;
     OBJECTNUM                                   @mandatory;
@@ -17,8 +17,11 @@ annotate BSNC_VAT_0040_SERVICE.BSNC_VAT_0040H {
     GUBUN                                       @mandatory;
 }
 
-annotate BSNC_VAT_0040_SERVICE.BSNC_VAT_0040L {
-    YEAR                                         @mandatory;
-    GUBUN                                        @mandatory;
+annotate BSNC_VAT_0050_SERVICE.BSNC_VAT_0050L {
+    VCODE                                         @mandatory;
+    VNAME                                        @mandatory;
 }
 
+annotate BSNC_VAT_0050_SERVICE.BSNC_VAT_0050M {
+    VCODE                                         @mandatory;
+}
