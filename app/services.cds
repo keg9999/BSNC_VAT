@@ -9,3 +9,5 @@ using from './bsnc_vat_0010/field-control';
 using from './bsnc_vat_0010/labels';
 using from './bsnc_vat_0010/layouts_0010H';
 using from './bsnc_vat_0010/layouts_0010L';
+
+using from './bsnc_vat_0020/annotations';

@@ -1,4 +1,4 @@
-using BSNC_VAT_0010_SERVICE from '../../srv/BSNC_VAT_0010_SERVICE';
+using BSNC_VAT_0010_SERVICE from '../../srv/BSNC_VAT_SERVICE';
 
 //
 // annotations that control the behavior of fields and actions

@@ -1,0 +1,146 @@
+{
+  "_version": "1.40.0",
+  "sap.app": {
+    "id": "ns.bsncvat0020",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap-ux/fiori-elements-writer:lrop",
+      "version": "0.3.6",
+      "toolsId": "6ebf2646-802a-49cb-a53b-8bfd1aad3d78"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/service/BSNC_VAT/",
+        "type": "OData",
+        "settings": {
+          "annotations": [
+            "annotation"
+          ],
+          "localUri": "localService/metadata.xml",
+          "odataVersion": "4.0"
+        }
+      },
+      "annotation": {
+        "type": "ODataAnnotation",
+        "uri": "annotations/annotation.xml",
+        "settings": {
+          "localUri": "annotations/annotation.xml"
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.102.1",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.ushell": {},
+        "sap.fe.templates": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "ns.bsncvat0020.i18n.i18n"
+        }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "synchronizationMode": "None",
+          "operationMode": "Server",
+          "autoExpandSelect": true,
+          "earlyRequests": true
+        }
+      },
+      "@i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "uri": "i18n/i18n.properties"
+      }
+    },
+    "resources": {
+      "css": []
+    },
+    "routing": {
+      "config": {},
+      "routes": [
+        {
+          "pattern": ":?query:",
+          "name": "BSNC_VAT_0020HList",
+          "target": "BSNC_VAT_0020HList"
+        },
+        {
+          "pattern": "BSNC_VAT_0020H({key}):?query:",
+          "name": "BSNC_VAT_0020HObjectPage",
+          "target": "BSNC_VAT_0020HObjectPage"
+        }
+      ],
+      "targets": {
+        "BSNC_VAT_0020HList": {
+          "type": "Component",
+          "id": "BSNC_VAT_0020HList",
+          "name": "sap.fe.templates.ListReport",
+          "options": {
+            "settings": {
+              "entitySet": "BSNC_VAT_0020H",
+              "variantManagement": "Page",
+              "navigation": {
+                "BSNC_VAT_0020H": {
+                  "detail": {
+                    "route": "BSNC_VAT_0020HObjectPage"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "BSNC_VAT_0020HObjectPage": {
+          "type": "Component",
+          "id": "BSNC_VAT_0020HObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "editableHeaderContent": false,
+              "entitySet": "BSNC_VAT_0020H"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sap.fiori": {
+    "registrationIds": [],
+    "archeType": "transactional"
+  }
+}

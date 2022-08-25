@@ -1,4 +1,4 @@
-using BSNC_VAT_0010_SERVICE as service from '../../srv/BSNC_VAT_0010_SERVICE';
+using BSNC_VAT_0010_SERVICE as service from '../../srv/BSNC_VAT_SERVICE';
 //using from '../../srv/vat-service';
 //using from '../../db/schema';
 

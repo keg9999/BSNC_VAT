@@ -9,7 +9,7 @@
         <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
     </edmx:Reference>
     <edmx:Reference Uri="/service/BSNC_VAT/$metadata">
-        <edmx:Include Namespace="BSNC_VAT_0000_SERVICE"/>
+        <edmx:Include Namespace="BSNC_VAT_0020_SERVICE"/>
     </edmx:Reference>
     <edmx:DataServices>
         <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">

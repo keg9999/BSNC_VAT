@@ -1,4 +1,4 @@
-using BSNC_VAT_0000_SERVICE as service from '../../srv/BSNC_VAT_0000_SERVICE';
+using BSNC_VAT_0000_SERVICE as service from '../../srv/BSNC_VAT_SERVICE';
 using BSNC_VAT_0000_SERVICE.BSNC_VAT_0000L as BSNC_VAT_0000L from './layouts_0000L';
 // using from '../../srv/vat-service';
 // using from '../../db/schema';
