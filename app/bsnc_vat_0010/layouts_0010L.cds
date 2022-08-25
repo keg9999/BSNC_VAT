@@ -34,27 +34,33 @@ annotate service.BSNC_VAT_0010L with @(
         // },   
         {
             $Type : 'UI.DataField',
-            Value : VALCD
+            Value : VALCD,
+            ![@HTML5.CssDefaults] : {width : '7rem'}
         },
         {
             $Type : 'UI.DataField',
-            Value : VALNM
+            Value : VALNM,
+            ![@HTML5.CssDefaults] : {width : '15rem'}
         },
         {
             $Type : 'UI.DataField',
-            Value : USERYN
+            Value : USERYN,
+            ![@HTML5.CssDefaults] : {width : '5rem'}
         },
         {
             $Type : 'UI.DataField',
-            Value : SORT
+            Value : SORT,
+            ![@HTML5.CssDefaults] : {width : '5rem'}
         },
         {
             $Type : 'UI.DataField',
-            Value : RMK1
+            Value : RMK1,
+            ![@HTML5.CssDefaults] : {width : '15rem'}
         },
         {
             $Type : 'UI.DataField',
-            Value : RMK2
+            Value : RMK2,
+            ![@HTML5.CssDefaults] : {width : '15rem'}
         }
     ]
 );

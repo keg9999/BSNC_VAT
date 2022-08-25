@@ -115,11 +115,11 @@ annotate service.BSNC_VAT_0010H with @(
 annotate service.BSNC_VAT_0010H with @(
     UI.DataPoint #headerCode: {
         Value           : CODE,
-        Title           : '코드',
+        Title           : '분류',
     },
     UI.DataPoint #headerName: {
         Value           : NAME,
-        Title           : '이름',
+        Title           : '분류명',
     },
     UI.DataPoint #headerRemark: {
         Value           : REMARK,

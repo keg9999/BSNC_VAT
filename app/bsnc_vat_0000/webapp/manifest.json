@@ -120,7 +120,8 @@
                                         "route": "BSNC_VAT_0000HObjectPage"
                                     }
                                 }
-                            }
+                            },
+                            "initialLoad": "Enabled"
                         }
                     }
                 },
