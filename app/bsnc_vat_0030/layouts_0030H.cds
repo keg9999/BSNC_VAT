@@ -1,11 +1,11 @@
-using BSNC_VAT_0000_SERVICE as service from '../../srv/BSNC_VAT_SERVICE';
-using BSNC_VAT_0000_SERVICE.BSNC_VAT_0000L as BSNC_VAT_0000L from './layouts_0000L';
+using BSNC_VAT_0030_SERVICE as service from '../../srv/BSNC_VAT_SERVICE';
+using BSNC_VAT_0030_SERVICE.BSNC_VAT_0030L as BSNC_VAT_0030L from './layouts_0030L';
 // using from '../../srv/vat-service';
 // using from '../../db/schema';
 
 
 
-annotate service.BSNC_VAT_0000H with @(
+annotate service.BSNC_VAT_0030H with @(
     // 검색 필터 필드
     UI.SelectionFields : [  
         CODE,
@@ -14,7 +14,7 @@ annotate service.BSNC_VAT_0000H with @(
     ],
 );
     
-annotate service.BSNC_VAT_0000H with @(
+annotate service.BSNC_VAT_0030H with @(
     //조회 페이지 컬럼
     UI.LineItem : [     
         {
@@ -62,7 +62,7 @@ annotate service.BSNC_VAT_0000H with @(
     ]
 );
 
-annotate service.BSNC_VAT_0000H with @(
+annotate service.BSNC_VAT_0030H with @(
     //검색결과
     UI.PresentationVariant : {
         Text           : 'Default',
@@ -75,7 +75,7 @@ annotate service.BSNC_VAT_0000H with @(
     }
 );
 
-annotate service.BSNC_VAT_0000H with @(
+annotate service.BSNC_VAT_0030H with @(
     UI.HeaderInfo :{
         TypeName        : '',
         TypeNamePlural  : '',
@@ -96,67 +96,31 @@ annotate service.BSNC_VAT_0000H with @(
     UI.HeaderFacets
     Search-Term: #HeaderFacets
  */
-annotate service.BSNC_VAT_0000H with @(
-    UI.HeaderFacets : [
-        {
-            $Type   : 'UI.ReferenceFacet',
-            Target  : '@UI.DataPoint#headerCode',
-        },
-        {
-            $Type   : 'UI.ReferenceFacet',
-            Target  : '@UI.DataPoint#headerName',
-        },
-        {
-            $Type   : 'UI.ReferenceFacet',
-            Target  : '@UI.DataPoint#headerRemark',
-        },
-        // {
-        //     $Type   : 'UI.ReferenceFacet',
-        //     Target  : '@UI.FieldGroup#headerDates',
-        // },
 
-    ],
-);
 
-annotate service.BSNC_VAT_0000H with @(
-    UI.DataPoint #headerCode: {
-        Value           : CODE,
-        Title           : '코드',
-    },
-    UI.DataPoint #headerName: {
-        Value           : NAME,
-        Title           : '이름',
-    },
-    UI.DataPoint #headerRemark: {
-        Value           : REMARK,
-        Title           : '비고',
-    },
-);
-
-annotate service.BSNC_VAT_0000H with @(
+annotate service.BSNC_VAT_0030H with @(
      UI.Facets :[
         {
-        //Search-Terms: #Form, #HidingContent
         $Type     : 'UI.ReferenceFacet',
-        Target        : '@UI.FieldGroup#ShowWhenInEdit',
+        Target        : '@UI.FieldGroup#G01',
         Label         : '',
-        ![@UI.Hidden] : IsActiveEntity,
+        //![@UI.Hidden] : IsActiveEntity,
         },
         {
             $Type   : 'UI.ReferenceFacet',
-            Target  : 'BSNC_VAT_0000L/@UI.PresentationVariant',
+            Target  : 'BSNC_VAT_0030L/@UI.PresentationVariant',
             ID      : '0001LSection',
             Label   : '',
         },
     ],
 );
 
-annotate service.BSNC_VAT_0000H with @(
-        UI.FieldGroup #ShowWhenInEdit       : {
+annotate service.BSNC_VAT_0030H with @(
+        UI.FieldGroup #G01       : {
         Data : [
             {Value : CODE},
             {Value : NAME},
-            {Value : REMARK},  
+           // {Value : REMARK},  
         ]
     },
     

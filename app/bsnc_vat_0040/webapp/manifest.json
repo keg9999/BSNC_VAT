@@ -1,7 +1,7 @@
 {
     "_version": "1.40.0",
     "sap.app": {
-        "id": "ns.bsncvat0010",
+        "id": "ns.bsncvat0040",
         "type": "application",
         "i18n": "i18n/i18n.properties",
         "applicationVersion": {
@@ -11,13 +11,13 @@
         "description": "{{appDescription}}",
         "resources": "resources.json",
         "sourceTemplate": {
-            "id": "@sap-ux/fiori-elements-writer:lrop",
-            "version": "0.3.6",
-            "toolsId": "46f9b5f0-423c-4671-8476-fdfa80a7f7fa"
+            "id": "@sap/generator-fiori:lrop",
+            "version": "1.7.1",
+            "toolsId": "0c6170e7-ea81-4793-8a42-47c66e911d34"
         },
         "dataSources": {
             "mainService": {
-                "uri": "/service/BSNC_VAT_0010/",
+                "uri": "/bsnc-vat-0040-service/",
                 "type": "OData",
                 "settings": {
                     "annotations": [
@@ -55,7 +55,7 @@
     "sap.ui5": {
         "flexEnabled": true,
         "dependencies": {
-            "minUI5Version": "1.102.1",
+            "minUI5Version": "1.105.0",
             "libs": {
                 "sap.m": {},
                 "sap.ui.core": {},
@@ -71,7 +71,7 @@
             "i18n": {
                 "type": "sap.ui.model.resource.ResourceModel",
                 "settings": {
-                    "bundleName": "ns.bsncvat0010.i18n.i18n"
+                    "bundleName": "ns.bsncvat0040.i18n.i18n"
                 }
             },
             "": {
@@ -96,42 +96,59 @@
             "routes": [
                 {
                     "pattern": ":?query:",
-                    "name": "BSNC_VAT_0010HList",
-                    "target": "BSNC_VAT_0010HList"
+                    "name": "BSNC_VAT_0040HList",
+                    "target": "BSNC_VAT_0040HList"
                 },
                 {
-                    "pattern": "BSNC_VAT_0010H({key}):?query:",
-                    "name": "BSNC_VAT_0010HObjectPage",
-                    "target": "BSNC_VAT_0010HObjectPage"
+                    "pattern": "BSNC_VAT_0040H({key}):?query:",
+                    "name": "BSNC_VAT_0040HObjectPage",
+                    "target": "BSNC_VAT_0040HObjectPage"
                 }
             ],
             "targets": {
-                "BSNC_VAT_0010HList": {
+                "BSNC_VAT_0040HList": {
                     "type": "Component",
-                    "id": "BSNC_VAT_0010HList",
+                    "id": "BSNC_VAT_0040HList",
                     "name": "sap.fe.templates.ListReport",
                     "options": {
                         "settings": {
-                            "entitySet": "BSNC_VAT_0010H",
+                            "entitySet": "BSNC_VAT_0040H",
                             "variantManagement": "Page",
                             "navigation": {
-                                "BSNC_VAT_0010H": {
+                                "BSNC_VAT_0040H": {
                                     "detail": {
-                                        "route": "BSNC_VAT_0010HObjectPage"
+                                        "route": "BSNC_VAT_0040HObjectPage"
                                     }
                                 }
                             }
                         }
                     }
                 },
-                "BSNC_VAT_0010HObjectPage": {
+                "BSNC_VAT_0040HObjectPage": {
                     "type": "Component",
-                    "id": "BSNC_VAT_0010HObjectPage",
+                    "id": "BSNC_VAT_0040HObjectPage",
                     "name": "sap.fe.templates.ObjectPage",
                     "options": {
                         "settings": {
                             "editableHeaderContent": false,
-                            "entitySet": "BSNC_VAT_0010H"
+                            "entitySet": "BSNC_VAT_0040H",
+                            "navigation": {},
+                            "controlConfiguration": {
+                                "BSNC_VAT_0040L/@com.sap.vocabularies.UI.v1.LineItem": {
+                                    "tableSettings": {
+                                        "type": "ResponsiveTable",
+                                        "personalization": {
+                                            "column": true,
+                                            "sort": true
+                                        },
+                                        "creationMode": {
+                                            "name": "Inline",
+                                            "createAtEnd": true
+                                        }
+                                    }
+                                }
+                            }
+
                         }
                     }
                 }
