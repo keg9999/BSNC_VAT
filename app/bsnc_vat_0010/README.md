@@ -1,13 +1,13 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Wed Aug 24 2022 19:32:52 GMT+0900 (한국 표준시)|
+|**Generation Date and Time**<br>Thu Aug 25 2022 17:37:14 GMT+0900 (한국 표준시)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.6.4|
 |**Generation Platform**<br>Visual Studio Code|
 |**Floorplan Used**<br>List Report Object Page V4|
 |**Service Type**<br>Local Cap|
-|**Service URL**<br>http://localhost:4004/service/BSNC_VAT_0010/
+|**Service URL**<br>http://localhost:4004/bsnc-vat-0010-service/
 |**Module Name**<br>bsnc_vat_0010|
 |**Application Title**<br>환경설정|
 |**Namespace**<br>ns|

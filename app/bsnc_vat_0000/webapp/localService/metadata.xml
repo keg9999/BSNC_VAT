@@ -36,8 +36,8 @@
                 <Property Name="CANCELED" Type="Edm.String" MaxLength="1" DefaultValue="N"/>
                 <Property Name="COMMIT" Type="Edm.String" MaxLength="10" DefaultValue="COMMIT"/>
                 <Property Name="UNACTIVE" Type="Edm.String" MaxLength="1" DefaultValue="N"/>
-                <Property Name="STRDATE" Type="Edm.DateTimeOffset" DefaultValue="2000-01-01"/>
-                <Property Name="ENDDATE" Type="Edm.DateTimeOffset" DefaultValue="2100-12-31"/>
+                <Property Name="STRDATE" Type="Edm.Date" DefaultValue="2000-01-01"/>
+                <Property Name="ENDDATE" Type="Edm.Date" DefaultValue="2100-12-31"/>
                 <Property Name="CODE" Type="Edm.String" MaxLength="30"/>
                 <Property Name="NAME" Type="Edm.String" MaxLength="100"/>
                 <Property Name="REMARK" Type="Edm.String" MaxLength="200"/>

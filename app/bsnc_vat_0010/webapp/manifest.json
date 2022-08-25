@@ -13,11 +13,11 @@
         "sourceTemplate": {
             "id": "@sap-ux/fiori-elements-writer:lrop",
             "version": "0.3.6",
-            "toolsId": "46f9b5f0-423c-4671-8476-fdfa80a7f7fa"
+            "toolsId": "b39b6bd3-5943-49eb-b28b-f121f8fea1fd"
         },
         "dataSources": {
             "mainService": {
-                "uri": "/service/BSNC_VAT/",
+                "uri": "/bsnc-vat-0010-service/",
                 "type": "OData",
                 "settings": {
                     "annotations": [
@@ -120,8 +120,7 @@
                                         "route": "BSNC_VAT_0010HObjectPage"
                                     }
                                 }
-                            },
-                            "initialLoad": "Enabled"
+                            }
                         }
                     }
                 },
@@ -132,23 +131,7 @@
                     "options": {
                         "settings": {
                             "editableHeaderContent": false,
-                            "entitySet": "BSNC_VAT_0010H",
-                            "navigation": {},
-                            "controlConfiguration": {
-                                "BSNC_VAT_0010L/@com.sap.vocabularies.UI.v1.LineItem": {
-                                    "tableSettings": {
-                                        "type": "ResponsiveTable",
-                                        "personalization": {
-                                            "column": true,
-                                            "sort": true
-                                        },
-                                        "creationMode": {
-                                            "name": "Inline",
-                                            "createAtEnd": true
-                                        }
-                                    }
-                                }
-                            }   
+                            "entitySet": "BSNC_VAT_0010H"
                         }
                     }
                 }

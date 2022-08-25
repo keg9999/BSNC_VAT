@@ -1,10 +1,10 @@
-using BSNC_VAT_0010_SERVICE from '../../srv/BSNC_VAT_SERVICE';
+using BSNC_VAT_0020_SERVICE from '../../srv/BSNC_VAT_SERVICE';
 
 //
 // annotations that control the behavior of fields and actions
 //
 
-annotate BSNC_VAT_0010_SERVICE.BSNC_VAT_0010H {
+annotate BSNC_VAT_0020_SERVICE.BSNC_VAT_0020H {
     COMPANYCD                                   @mandatory;
     OBJECTCODE                                  @mandatory;
     OBJECTNUM                                   @mandatory;

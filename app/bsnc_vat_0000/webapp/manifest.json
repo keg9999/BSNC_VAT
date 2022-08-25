@@ -13,7 +13,7 @@
         "sourceTemplate": {
             "id": "@sap-ux/fiori-elements-writer:lrop",
             "version": "0.3.6",
-            "toolsId": "48ba4f08-5512-402f-9cef-24ce84e259a9"
+            "toolsId": "74a36eb6-2571-46ef-ae59-c71baba366f7"
         },
         "dataSources": {
             "mainService": {
@@ -120,8 +120,7 @@
                                         "route": "BSNC_VAT_0000HObjectPage"
                                     }
                                 }
-                            },
-                            "initialLoad": "Enabled"
+                            }
                         }
                     }
                 },
@@ -132,23 +131,7 @@
                     "options": {
                         "settings": {
                             "editableHeaderContent": false,
-                            "entitySet": "BSNC_VAT_0000H",
-                            "navigation": {},
-                            "controlConfiguration": {
-                                "BSNC_VAT_0000L/@com.sap.vocabularies.UI.v1.LineItem": {
-                                    "tableSettings": {
-                                        "type": "ResponsiveTable",
-                                        "personalization": {
-                                            "column": true,
-                                            "sort": true
-                                        },
-                                        "creationMode": {
-                                            "name": "Inline",
-                                            "createAtEnd": true
-                                        }
-                                    }
-                                }
-                            }
+                            "entitySet": "BSNC_VAT_0000H"
                         }
                     }
                 }
