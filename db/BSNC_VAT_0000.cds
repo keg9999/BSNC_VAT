@@ -15,8 +15,8 @@ entity BSNC_VAT_0000H : managed{
     CANCELED : String(1) default 'N'; 	        //취소		
     COMMIT : String(10) default 'COMMIT';	    //COMMIT		
     UNACTIVE : String(1) default 'N';	//비활성		
-    STRDATE	: DateTime default '2000-01-01'; //효력시작일		
-    ENDDATE	: DateTime default '2100-12-31'; //효력종료일		
+    STRDATE	: Date default '2000-01-01'; //효력시작일		
+    ENDDATE	: Date default '2100-12-31'; //효력종료일		
     CODE :	String(30) @assert.unique; 		
     NAME :	String(100);		
     REMARK : String(200);

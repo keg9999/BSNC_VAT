@@ -154,7 +154,11 @@ annotate service.BSNC_VAT_0000H with @(
 annotate service.BSNC_VAT_0000H with @(
         UI.FieldGroup #ShowWhenInEdit       : {
         Data : [
-            {Value : CODE},
+            {
+                Value : CODE,
+                //필수입력으로 지정하는 방법2 
+                ![@Common.FieldControl] : #Mandatory
+            },
             {Value : NAME},
             {Value : REMARK},  
         ]

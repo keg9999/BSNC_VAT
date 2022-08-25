@@ -15,7 +15,6 @@ annotate schema.BSNC_VAT_0000H with {
 	CODE            @title: '코드';
 	NAME            @title: '이름';
 	REMARK          @title: '비고';
-    //BSNC_VAT_0000_SERVICE
 }
 
 annotate schema.BSNC_VAT_0000L with @title: 'BSNC_VAT_0000L'{
