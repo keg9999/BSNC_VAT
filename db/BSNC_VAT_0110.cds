@@ -6,7 +6,7 @@ using { managed } from '@sap/cds/common';
 entity BSNC_VAT_0110H : managed{
     key OBJECTNUM : UUID; //자동순번부여
     BPLID : String;  //사업장
-    YYYY : String(4);   //년도
+    YEAR : String(4);   //년도
     GUBUN : String; //구분
     FDATE : Date;   //과세기간 시작
     TDATE : Date;   //과시기간 종료
