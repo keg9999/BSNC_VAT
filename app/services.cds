@@ -30,3 +30,8 @@ using from './bsnc_vat_0050/layouts_0050L';
 using from './bsnc_vat_0050/layouts_0050M';
 using from './bsnc_vat_0050/layouts_0050N';
 using from './bsnc_vat_0050/layouts_0050O';
+
+//bsnc_vat_0060
+using from './bsnc_vat_0060/field-control';
+using from './bsnc_vat_0060/labels';
+using from './bsnc_vat_0060/layouts_0060H_UI';

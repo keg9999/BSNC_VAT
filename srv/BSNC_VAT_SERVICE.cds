@@ -2,6 +2,7 @@ using { sap.ui.BSNC_VAT_0000 as my0000 } from '../db/BSNC_VAT_0000';
 using { sap.ui.BSNC_VAT_0030 as my0030 } from '../db/BSNC_VAT_0030';
 using { sap.ui.BSNC_VAT_0040 as my0040 } from '../db/BSNC_VAT_0040';
 using { sap.ui.BSNC_VAT_0050 as my0050 } from '../db/BSNC_VAT_0050';
+using { sap.ui.BSNC_VAT_0060 as my0060 } from '../db/BSNC_VAT_0060';
 
 @path:'service/BSNC_VAT_SERVICE'
 service BSNC_VAT_0000_SERVICE {
@@ -33,4 +34,10 @@ service BSNC_VAT_0050_SERVICE {
     annotate BSNC_VAT_0050N with @cds.odata.valuelist;
   entity BSNC_VAT_0050O as projection on my0050.BSNC_VAT_0050O;
     annotate BSNC_VAT_0050O with @cds.odata.valuelist;
+}
+service BSNC_VAT_0060_SERVICE {
+  entity BSNC_VAT_0060H as projection on my0060.BSNC_VAT_0060H;
+    annotate BSNC_VAT_0060H with @odata.draft.enabled;
+  entity BSNC_VAT_0060H_UI as projection on my0060.BSNC_VAT_0060H_UI;
+    annotate BSNC_VAT_0060H_UI with @odata.draft.enabled;
 }
