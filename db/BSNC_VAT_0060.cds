@@ -3,7 +3,7 @@
 namespace sap.ui.BSNC_VAT_0060;
 using { managed } from '@sap/cds/common';
 
-entity BSNC_VAT_0060H : managed{
+entity BSNC_VAT_0060H {
     COMPANYCD : String(20) default 'ZZ';                //회사코드
     OBJECTCODE : String(50) default 'BSNC_VAT_0060';    //오브젝트
     key OBJECTNUM : UUID; //@readonly;    //자동순번부여

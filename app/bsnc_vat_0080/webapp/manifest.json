@@ -1,7 +1,7 @@
 {
   "_version": "1.40.0",
   "sap.app": {
-    "id": "ns.bsncvat0060",
+    "id": "ns.bsncvat0080",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,11 +13,11 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.7.1",
-      "toolsId": "779e3ba0-1f17-4276-8790-b2d65560ed86"
+      "toolsId": "044dc25c-0432-4a8c-8983-3123b99d1115"
     },
     "dataSources": {
       "mainService": {
-        "uri": "/bsnc-vat-0060-service/",
+        "uri": "/bsnc-vat-0080-service/",
         "type": "OData",
         "settings": {
           "annotations": [
@@ -71,7 +71,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "ns.bsncvat0060.i18n.i18n"
+          "bundleName": "ns.bsncvat0080.i18n.i18n"
         }
       },
       "": {
@@ -97,42 +97,42 @@
       "routes": [
         {
           "pattern": ":?query:",
-          "name": "BSNC_VAT_0060H_UIList",
-          "target": "BSNC_VAT_0060H_UIList"
+          "name": "BSNC_VAT_0080HList",
+          "target": "BSNC_VAT_0080HList"
         },
         {
-          "pattern": "BSNC_VAT_0060H_UI({key}):?query:",
-          "name": "BSNC_VAT_0060H_UIObjectPage",
-          "target": "BSNC_VAT_0060H_UIObjectPage"
+          "pattern": "BSNC_VAT_0080H({key}):?query:",
+          "name": "BSNC_VAT_0080HObjectPage",
+          "target": "BSNC_VAT_0080HObjectPage"
         }
       ],
       "targets": {
-        "BSNC_VAT_0060H_UIList": {
+        "BSNC_VAT_0080HList": {
           "type": "Component",
-          "id": "BSNC_VAT_0060H_UIList",
+          "id": "BSNC_VAT_0080HList",
           "name": "sap.fe.templates.ListReport",
           "options": {
             "settings": {
-              "entitySet": "BSNC_VAT_0060H_UI",
+              "entitySet": "BSNC_VAT_0080H",
               "variantManagement": "Page",
               "navigation": {
-                "BSNC_VAT_0060H_UI": {
+                "BSNC_VAT_0080H": {
                   "detail": {
-                    "route": "BSNC_VAT_0060H_UIObjectPage"
+                    "route": "BSNC_VAT_0080HObjectPage"
                   }
                 }
               }
             }
           }
         },
-        "BSNC_VAT_0060H_UIObjectPage": {
+        "BSNC_VAT_0080HObjectPage": {
           "type": "Component",
-          "id": "BSNC_VAT_0060H_UIObjectPage",
+          "id": "BSNC_VAT_0080HObjectPage",
           "name": "sap.fe.templates.ObjectPage",
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "entitySet": "BSNC_VAT_0060H_UI"
+              "entitySet": "BSNC_VAT_0080H"
             }
           }
         }

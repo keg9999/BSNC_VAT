@@ -4,7 +4,7 @@ namespace sap.ui.BSNC_VAT_0080;
 using { managed } from '@sap/cds/common';
 
 entity BSNC_VAT_0080H : managed{
-    BPLID : String;//사업장
+    BPLID : Association to BSNC_BPLID;//사업장 
     DOCDATE : Date; //전기일   
     DUEDATE : Date; //증빙일   
     CARDCODE : String; //거래처
@@ -19,4 +19,12 @@ entity BSNC_VAT_0080H : managed{
     TRANSID  : String; //전표번호
     INDUSTRY : String; //업태
     BUSINESS : String; //업종
+    SDATE    : Date; //기간조회 시작
+    EDATE    : Date; //기간조회 종료
+};
+
+@cds.odata.valuelist
+entity BSNC_BPLID {
+    key CODE : String;
+    NAME : String;
 }

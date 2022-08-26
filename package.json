@@ -20,7 +20,8 @@
     "watch-bsnc_vat_0040": "cds watch --open bsnc_vat_0040/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-bsnc_vat_0030": "cds watch --open bsnc_vat_0030/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-bsnc_vat_0050": "cds watch --open bsnc_vat_0050/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-bsnc_vat_0060": "cds watch --open bsnc_vat_0060/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-bsnc_vat_0060": "cds watch --open bsnc_vat_0060/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-bsnc_vat_0080": "cds watch --open bsnc_vat_0080/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -55,6 +56,10 @@
     "app/bsnc_vat_0050",
     "app/bsnc_vat_0060",
     "app/bsnc_vat_0060",
-    "app/bsnc_vat_0060"
+    "app/bsnc_vat_0060",
+    "app/bsnc_vat_0060",
+    "app/bsnc_vat_0060",
+    "app/bsnc_vat_0060",
+    "app/bsnc_vat_0080"
   ]
 }

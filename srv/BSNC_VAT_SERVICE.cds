@@ -46,4 +46,6 @@ service BSNC_VAT_0060_SERVICE {
 service BSNC_VAT_0080_SERVICE {
   entity BSNC_VAT_0080H as projection on my0080.BSNC_VAT_0080H;
     //annotate BSNC_VAT_0080H with @odata.draft.enabled;
+  entity BSNC_BPLID as projection on my0080.BSNC_BPLID;
+    annotate BSNC_BPLID with @odata.draft.enabled;
 }
