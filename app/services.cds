@@ -15,3 +15,4 @@ using from './bsnc_vat_0020/field-control';
 using from './bsnc_vat_0020/labels';
 using from './bsnc_vat_0020/layouts_0020H';
 using from './bsnc_vat_0020/layouts_0020L';
+using from './bsnc_vat_0020/value_help';

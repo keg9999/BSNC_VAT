@@ -3,6 +3,8 @@
 namespace sap.ui.BSNC_VAT_0020;
 using { managed } from '@sap/cds/common';
 
+aspect MasterData {}
+
 //중복X 필드
 @assert.unique: {
   CODE: [ CODE ]
@@ -34,12 +36,45 @@ entity BSNC_VAT_0020L : managed{
     CODE : String(30) default '';	
     TAXCODE	: String(30); //부가세코드
     TAXNAME	: String(100); //부가세이름
-    TAXTYPE	: String(20); //세금유형
-    ETAX : String(20); //전자/일반
-    FIXTAX : String(20); //고정자산
-    NONDEDCT : String(20); //불공제
-    CREDITCD : String(20); //신용카드
+    TAXTYPE	: Association to BSNC_VAT_0020_TAXTYPE; //세금유형
+    ETAX : Association to BSNC_VAT_0020_ETAX; //전자/일반
+    FIXTAX : Association to BSNC_VAT_0020_FIXTAX; //고정자산
+    NONDEDCT : Association to BSNC_VAT_0020_NONDEDCT; //불공제
+    CREDITCD : Association to BSNC_VAT_0020_CREDITCD; //신용카드
     DEEMTAX	: Boolean; //의제매입
     ETCTAX : Boolean; //기타매출
     REMARK : String(200); //REMARK
+}
+
+//----------------------------------------------------------------------------------------------
+//valuehelp
+
+//@cds.odata.valuelist
+entity BSNC_VAT_0020_TAXTYPE : MasterData {  //value help - 세금유형
+  key CODE : String;
+  NAME : String;
+}
+
+@cds.odata.valuelist
+entity BSNC_VAT_0020_ETAX : MasterData {  //value help - 전자/일반
+  key CODE : String;
+  NAME : String;
+}
+
+@cds.odata.valuelist
+entity BSNC_VAT_0020_FIXTAX : MasterData {  //value help - 고정자산
+  key CODE : String;
+  NAME : String;
+}
+
+@cds.odata.valuelist
+entity BSNC_VAT_0020_NONDEDCT : MasterData {  //value help - 불공제
+  key CODE : String;
+  NAME : String;
+}
+
+@cds.odata.valuelist
+entity BSNC_VAT_0020_CREDITCD : MasterData {  //value help - 신용카드
+  key CODE : String;
+  NAME : String;
 }

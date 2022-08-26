@@ -131,7 +131,23 @@
                     "options": {
                         "settings": {
                             "editableHeaderContent": false,
-                            "entitySet": "BSNC_VAT_0000H"
+                            "entitySet": "BSNC_VAT_0000H",
+                            "navigation": {},
+                            "controlConfiguration": {
+                                "BSNC_VAT_0000L/@com.sap.vocabularies.UI.v1.LineItem": {
+                                    "tableSettings": {
+                                        "type": "ResponsiveTable",
+                                        "personalization": {
+                                            "column": true,
+                                            "sort": true
+                                        },
+                                        "creationMode": {
+                                            "name": "Inline",
+                                            "createAtEnd": true
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }

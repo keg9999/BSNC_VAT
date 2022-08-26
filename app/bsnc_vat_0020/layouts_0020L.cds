@@ -40,27 +40,27 @@ annotate service.BSNC_VAT_0020L with @(
         },
         {
             $Type : 'UI.DataField',
-            Value : TAXTYPE,
+            Value : TAXTYPE_CODE,
             //![@HTML5.CssDefaults] : {width : '5rem'}
         },
         {
             $Type : 'UI.DataField',
-            Value : ETAX,
+            Value : ETAX_CODE,
             //![@HTML5.CssDefaults] : {width : '5rem'}
         },
         {
             $Type : 'UI.DataField',
-            Value : FIXTAX,
+            Value : FIXTAX_CODE,
             //![@HTML5.CssDefaults] : {width : '15rem'}
         },
         {
             $Type : 'UI.DataField',
-            Value : NONDEDCT,
+            Value : NONDEDCT_CODE,
             //![@HTML5.CssDefaults] : {width : '15rem'}
         },
                 {
             $Type : 'UI.DataField',
-            Value : CREDITCD,
+            Value : CREDITCD_CODE,
             //![@HTML5.CssDefaults] : {width : '5rem'}
         },
         {

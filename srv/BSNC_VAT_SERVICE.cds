@@ -16,7 +16,19 @@ service BSNC_VAT_0020_SERVICE {
   entity BSNC_VAT_0020H as projection on my0020.BSNC_VAT_0020H;
     annotate BSNC_VAT_0020H with @odata.draft.enabled;
   entity BSNC_VAT_0020L as projection on my0020.BSNC_VAT_0020L;
-    annotate BSNC_VAT_0020L with @cds.odata.valuelist
+    annotate BSNC_VAT_0020_TAXTYPE with @cds.odata.valuelist;
+
+  //value help 선택리스트
+  entity BSNC_VAT_0020_TAXTYPE as projection on my0020.BSNC_VAT_0020_TAXTYPE;
+    annotate BSNC_VAT_0020_TAXTYPE with @odata.draft.enabled;
+  entity BSNC_VAT_0020_ETAX as projection on my0020.BSNC_VAT_0020_ETAX;
+    annotate BSNC_VAT_0020_ETAX with @odata.draft.enabled;
+  entity BSNC_VAT_0020_FIXTAX as projection on my0020.BSNC_VAT_0020_FIXTAX;
+    annotate BSNC_VAT_0020_FIXTAX with @odata.draft.enabled;
+  entity BSNC_VAT_0020_NONDEDCT as projection on my0020.BSNC_VAT_0020_NONDEDCT;
+    annotate BSNC_VAT_0020_NONDEDCT with @odata.draft.enabled;
+  entity BSNC_VAT_0020_CREDITCD as projection on my0020.BSNC_VAT_0020_CREDITCD;
+    annotate BSNC_VAT_0020_CREDITCD with @odata.draft.enabled;
 }
 
 //@path:'service/BSNC_VAT'
