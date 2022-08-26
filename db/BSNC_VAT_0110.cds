@@ -1,9 +1,9 @@
 //BSNC_VAT_0110: 신고파일생성
 
 namespace sap.ui.BSNC_VAT_0110;
-using { managed } from '@sap/cds/common';
+//using { managed } from '@sap/cds/common';
 
-entity BSNC_VAT_0110H : managed{
+entity BSNC_VAT_0110H {
     key OBJECTNUM : UUID; //자동순번부여
     BPLID : String;  //사업장
     YEAR : String(4);   //년도
@@ -17,7 +17,7 @@ entity BSNC_VAT_0110H : managed{
 
 }
 
-entity BSNC_VAT_0110L : managed{
+entity BSNC_VAT_0110L {
     key OBJECTNUM : UUID; //자동순번부여
     P_OBJECTNUM : Association to one BSNC_VAT_0110H; 	//BSNC_VAT_0010H.OBJECTNUM	   
     CHECK : Boolean;    //선택
