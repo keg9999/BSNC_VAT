@@ -1,5 +1,7 @@
 using BSNC_VAT_0020_SERVICE as service from '../../srv/BSNC_VAT_SERVICE';
 
+//설정할 사항이 있을 경우 
+//(설정사항 없이 모든 필드를 valuelist로 넣을 때는 스키마 폴더의 엔티티 위에 @cds.odata.valuelist 어노테이션만 달면 됨. )
 annotate service.BSNC_VAT_0020L with {
 	TAXTYPE @(
 		Common: {

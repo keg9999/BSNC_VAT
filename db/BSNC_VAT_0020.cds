@@ -49,7 +49,7 @@ entity BSNC_VAT_0020L : managed{
 //----------------------------------------------------------------------------------------------
 //valuehelp
 
-//@cds.odata.valuelist
+//value.help.cds 에서 설정
 entity BSNC_VAT_0020_TAXTYPE : MasterData {  //value help - 세금유형
   key CODE : String;
   NAME : String;
