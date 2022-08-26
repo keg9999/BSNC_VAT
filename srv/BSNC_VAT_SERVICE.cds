@@ -29,6 +29,8 @@ service BSNC_VAT_0050_SERVICE {
     annotate BSNC_VAT_0050L with @cds.odata.valuelist;
   entity BSNC_VAT_0050M as projection on my0050.BSNC_VAT_0050M;
     annotate BSNC_VAT_0050M with @cds.odata.valuelist;
+  entity BSNC_VAT_0050N as projection on my0050.BSNC_VAT_0050N;
+    annotate BSNC_VAT_0050N with @cds.odata.valuelist;
   entity BSNC_VAT_0050O as projection on my0050.BSNC_VAT_0050O;
     annotate BSNC_VAT_0050O with @cds.odata.valuelist;
 }

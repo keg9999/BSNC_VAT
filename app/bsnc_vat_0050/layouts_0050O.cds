@@ -1,27 +1,56 @@
-using BSNC_VAT_0050_SERVICE from '../../srv/BSNC_VAT_SERVICE';
+using BSNC_VAT_0050_SERVICE as service from '../../srv/BSNC_VAT_SERVICE';
+//using from '../../srv/vat-service';
+//using from '../../db/schema';
 
-//
-// annotations that control the behavior of fields and actions
-//
+annotate service.BSNC_VAT_0050O with @(
+    UI.HeaderInfo : {
+        TypeName        : ' ',
+        TypeNamePlural  : ' ', 
+        Title           : {
+            $Type : 'UI.DataField',
+            Value : 'BSNC_VAT_0050O',
+        },
+    },
+);
 
-annotate BSNC_VAT_0050_SERVICE.BSNC_VAT_0050H {
-    COMPANYCD                                   @mandatory;
-    OBJECTCODE                                  @mandatory;
-    OBJECTNUM                                   @mandatory;
-    CANCELED                                    @mandatory;
-    COMMIT                                      @mandatory;
-    UNACTIVE                                    @mandatory;
-    STRDATE                                     @mandatory;
-    ENDDATE                                     @mandatory;
-    YEAR                                        @mandatory;
-    GUBUN                                       @mandatory;
-}
+annotate service.BSNC_VAT_0050O with @(
+    UI.PresentationVariant : {
+        SortOrder       : [
+            {
+                Property    : INDUSTRY,
+                Descending  : false,
+            },
+        ],
+        Visualizations  : ['@UI.LineItem'],
+    },
+);
 
-annotate BSNC_VAT_0050_SERVICE.BSNC_VAT_0050L {
-    VCODE                                         @mandatory;
-    VNAME                                        @mandatory;
-}
 
-annotate BSNC_VAT_0050_SERVICE.BSNC_VAT_0050M {
-    VCODE                                         @mandatory;
-}
+annotate service.BSNC_VAT_0050O with @(
+    UI.LineItem : [
+        // {
+        //     $Type : 'UI.DataField',
+        //     Value : LINEID
+        // },
+        {
+            $Type : 'UI.DataField',
+            Value : INDUSTRY,
+            ![@HTML5.CssDefaults] : {width : '20rem'}            
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : BUSINESS,
+            ![@HTML5.CssDefaults] : {width : '20rem'}
+        },   
+        {
+            $Type : 'UI.DataField',
+            Value : TYPECODE,
+            ![@HTML5.CssDefaults] : {width : '20rem'}
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : AMT,
+            ![@HTML5.CssDefaults] : {width : '20rem'}
+        }
+    ]
+);

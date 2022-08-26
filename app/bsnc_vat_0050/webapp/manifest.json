@@ -132,7 +132,62 @@
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "entitySet": "BSNC_VAT_0050H"
+              "entitySet": "BSNC_VAT_0050H",
+              "navigation": {},
+                            "controlConfiguration": {
+                                "BSNC_VAT_0050L/@com.sap.vocabularies.UI.v1.LineItem": {
+                                    "tableSettings": {
+                                        "type": "ResponsiveTable",
+                                        "personalization": {
+                                            "column": true,
+                                            "sort": true
+                                        },
+                                        "creationMode": {
+                                            "name": "Inline",
+                                            "createAtEnd": true
+                                        }
+                                    }
+                                },
+                                "BSNC_VAT_0050M/@com.sap.vocabularies.UI.v1.LineItem": {
+                                    "tableSettings": {
+                                        "type": "ResponsiveTable",
+                                        "personalization": {
+                                            "column": true,
+                                            "sort": true
+                                        },
+                                        "creationMode": {
+                                            "name": "Inline",
+                                            "createAtEnd": true
+                                        }
+                                    }
+                                },
+                                "BSNC_VAT_0050N/@com.sap.vocabularies.UI.v1.LineItem": {
+                                    "tableSettings": {
+                                        "type": "ResponsiveTable",
+                                        "personalization": {
+                                            "column": true,
+                                            "sort": true
+                                        },
+                                        "creationMode": {
+                                            "name": "Inline",
+                                            "createAtEnd": true
+                                        }
+                                    }
+                                },
+                                "BSNC_VAT_0050O/@com.sap.vocabularies.UI.v1.LineItem": {
+                                    "tableSettings": {
+                                        "type": "ResponsiveTable",
+                                        "personalization": {
+                                            "column": true,
+                                            "sort": true
+                                        },
+                                        "creationMode": {
+                                            "name": "Inline",
+                                            "createAtEnd": true
+                                        }
+                                    }
+                                }
+                            }                            
             }
           }
         }

@@ -21,3 +21,12 @@ using from './bsnc_vat_0040/field-control';
 using from './bsnc_vat_0040/labels';
 using from './bsnc_vat_0040/layouts_0040H';
 using from './bsnc_vat_0040/layouts_0040L';
+
+//bsnc_vat_0050
+using from './bsnc_vat_0050/field-control';
+using from './bsnc_vat_0050/labels';
+using from './bsnc_vat_0050/layouts_0050H';
+using from './bsnc_vat_0050/layouts_0050L';
+using from './bsnc_vat_0050/layouts_0050M';
+using from './bsnc_vat_0050/layouts_0050N';
+using from './bsnc_vat_0050/layouts_0050O';

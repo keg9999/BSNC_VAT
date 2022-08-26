@@ -20,7 +20,7 @@ entity BSNC_VAT_0050H : managed{
     GUBUN   : String(2);    //구분
     MM      : String(2);    //월
     BPLID   : String(10);   //사업장
-    CONFIRM : String(2);    //확정
+    CONFIRM : Boolean;    //확정
     YENRVAT : Decimal(19,2);   //예정신고미환급세액
     YENOVAT : Decimal(19,2); //예정고지세액
     PROVAT  : Decimal(19,2); //사업양수자의대리납부기납부세액
