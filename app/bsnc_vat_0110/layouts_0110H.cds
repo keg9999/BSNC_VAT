@@ -10,7 +10,7 @@ annotate service.BSNC_VAT_0110H with @(
 );
     
 annotate service.BSNC_VAT_0110H with @(
-    UI.LineItem : [     
+    UI.LineItem : [ 
         {
             $Type : 'UI.DataField',
             Label : '사업장',

@@ -131,7 +131,21 @@
                     "options": {
                         "settings": {
                             "editableHeaderContent": false,
-                            "entitySet": "BSNC_VAT_0110H"
+                            "entitySet": "BSNC_VAT_0110H",
+                            "content": {
+                                "header": {
+                                    "anchorBarVisible": true,
+                                    "visible": true,
+                                    "actions": {
+                                        "CustomActionOPHeader": {
+                                            "press": "sap.ui.BSNC_VAT_0110.ext.CustomActions.messageBox",
+                                            "enabled": "{= ${ui>/editMode} !== 'Editable'}",
+                                            "visible": true,
+                                            "text": "파일생성"
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }

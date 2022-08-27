@@ -28,11 +28,6 @@ annotate service.BSNC_VAT_0110L with @(
     UI.LineItem : [   
         {
             $Type : 'UI.DataField',
-            Value : CHECK,
-            //![@HTML5.CssDefaults] : {width : '7rem'}  //컬럼 사이즈
-        },
-        {
-            $Type : 'UI.DataField',
             Value : DOCCODE,
             //![@HTML5.CssDefaults] : {width : '15rem'}
         },

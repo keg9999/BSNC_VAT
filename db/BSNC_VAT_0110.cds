@@ -20,7 +20,7 @@ entity BSNC_VAT_0110H {
 entity BSNC_VAT_0110L {
     key OBJECTNUM : UUID; //자동순번부여
     P_OBJECTNUM : Association to one BSNC_VAT_0110H; 	//BSNC_VAT_0010H.OBJECTNUM	   
-    CHECK : Boolean;    //선택
+    //CHECK : Boolean;    //선택
     DOCCODE : String;   //서식코드
     DOCNAME : String;   //신고서식   
 }

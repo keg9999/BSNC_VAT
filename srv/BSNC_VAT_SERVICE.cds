@@ -45,6 +45,8 @@ service BSNC_VAT_0110_SERVICE {
   entity BSNC_VAT_0110H as projection on my0110.BSNC_VAT_0110H;
     annotate BSNC_VAT_0110H with @odata.draft.enabled;
   entity BSNC_VAT_0110L as projection on my0110.BSNC_VAT_0110L;
-    annotate BSNC_VAT_0110L with @cds.odata.valuelist
+    annotate BSNC_VAT_0110L with @cds.odata.valuelist;
+
+    action createTxt();
 }
 
