@@ -1,0 +1,836 @@
+{
+    "services": {
+      "LaunchPage": {
+        "adapter": {
+          "config": {
+            "catalogs": [],
+            "groups": [
+              {
+                "id": "G01",
+                "title": "기준정보",
+                "isPreset": true,
+                "isVisible": true,
+                "isGroupLocked": false,
+                "tiles": [                  
+                  {
+                      "id" : "VAT0000",
+                      "title" : "공통코드관리",
+                      "tileType": "sap.ushell.ui.tile.StaticTile",
+                      "properties": {
+                        "chipId": "VAT0000",
+                        "title": "공통코드관리",
+                        "info" : "",
+                        "targetURL" : "./bsnc_vat_0000/webapp"
+                      }
+                  },
+                  {
+                    "id" : "VAT0010",
+                    "title" : "환경설정",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0010",
+                      "title": "환경설정",
+                      "info" : "",
+                      "targetURL" : "./bsnc_vat_0010/webapp"
+                    }
+                },
+                {
+                    "id" : "VAT0015",
+                    "title" : "회사설정",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0015",
+                      "title": "회사설정",
+                      "info" : "",
+                      "targetURL" : "./bsnc_vat_0015/webapp"
+                    }
+                },
+                {
+                    "id" : "VAT0020",
+                    "title" : "부가세그룹설정",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0020",
+                      "title": "부가세그룹설정",
+                      "info" : "",
+                      "targetURL" : "./bsnc_vat_0020/webapp"
+                    }
+                },
+                {
+                    "id" : "VAT0030",
+                    "title" : "단위사업장 적용번호",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0030",
+                      "title": "단위사업장 적용번호",
+                      "info" : "",
+                      "targetURL" : "./bsnc_vat_0030/webapp"
+                    }
+                },
+                {
+                    "id" : "VAT0040",
+                    "title" : "부가세기준정보",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0040",
+                      "title": "부가세기준정보",
+                      "info" : "",
+                      "targetURL" : "./bsnc_vat_0040/webapp"
+                    }
+                },
+                {
+                    "id" : "VAT0050",
+                    "title" : "경감공제 가산세액 등록",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0050",
+                      "title": "경감공제 가산세액 등록",
+                      "info" : "",
+                      "targetURL" : "./bsnc_vat_0050/webapp"
+                    }
+                }
+                ]
+              },
+              {
+                "id": "G02",
+                "title": "기초데이터생성",
+                "isPreset": true,
+                "isVisible": true,
+                "isGroupLocked": false,
+                "tiles": [
+                  {
+                    "id": "VAT0060",
+                    "title": "부가세 자료 생성",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0060",
+                      "title": "부가세 자료 생성",
+                      "info": "",
+                      "targetURL": "./bsnc_vat_0060/webapp"
+                    }
+                  },
+                  {
+                    "id": "VAT0070",
+                    "title": "부가세 자료 Upload",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0070",
+                      "title": "부가세 자료 Upload",
+                      "info": "",
+                      "targetURL": "./bsnc_vat_0070/webapp"
+                    }
+                  },
+                  {
+                    "id": "VAT0080",
+                    "title": "부가세 자료 관리",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0080",
+                      "title": "부가세 자료 관리",
+                      "info": "",
+                      "targetURL": "./bsnc_vat_0080/webapp"
+                    }
+                  },
+                  {
+                    "id": "VAT0090",
+                    "title": "과세표준 생성",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0090",
+                      "title": "과세표준 생성",
+                      "info": "",
+                      "targetURL": "./bsnc_vat_0090/webapp"
+                    }
+                  },
+                  {
+                    "id": "VAT0095",
+                    "title": "과세표자료 조회",
+                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                    "properties": {
+                      "chipId": "VAT0095",
+                      "title": "과세표자료 조회",
+                      "info": "",
+                      "targetURL": "./bsnc_vat_0095/webapp"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "G03",
+                "title": "신고서집계",
+                "isPreset": true,
+                "isVisible": true,
+                "isGroupLocked": false,
+                "tiles": [
+                    {
+                        "id": "VAT0100",
+                        "title": "신고자료생성",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0100",
+                          "title": "신고자료생성",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0100/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0110",
+                        "title": "신고파일생성",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0110",
+                          "title": "신고파일생성",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0110/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0120",
+                        "title": "신고서 집계/출력",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0120",
+                          "title": "신고서 집계/출력",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0120/webapp"
+                        }
+                    }                                                                      
+                ]
+              },
+              {
+                "id": "G04",
+                "title": "부가세 첨부서류",
+                "isPreset": true,
+                "isVisible": true,
+                "isGroupLocked": false,
+                "tiles": [
+                    {
+                        "id": "VAT0130",
+                        "title": "세금계산서합계표",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0130",
+                          "title": "세금계산서합계표",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0130/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0140",
+                        "title": "계산서합계표",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0140",
+                          "title": "계산서합계표",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0140/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0150",
+                        "title": "합계표 조회",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0150",
+                          "title": "합계표 조회",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0150/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0160",
+                        "title": "수출실적명세서",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT016",
+                          "title": "수출실적명세서",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0160/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0170",
+                        "title": "영세율첨부서류명세서",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0170",
+                          "title": "영세율첨부서류명세서",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0170/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0180",
+                        "title": "영세율 매출명세서",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0180",
+                          "title": "영세율 매출명세서",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0180/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0190",
+                        "title": "건물등감가상각자산취득명세서",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0190",
+                          "title": "건물등감가상각자산취득명세서",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0190/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0200",
+                        "title": "신용카드매출전표등발행금액명세서",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0200",
+                          "title": "신용카드매출전표등발행금액명세서",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0200/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0210",
+                        "title": "공제받지못할매입명세서",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0210",
+                          "title": "공제받지못할매입명세서",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0210/webapp"
+                        }
+                    },
+                    {
+                        "id": "VAT0220",
+                        "title": "부동산임대 공급가액 명세서",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0220",
+                          "title": "부동산임대 공급가액 명세서",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0220/webapp"
+                        }
+                    } ,
+                    {
+                        "id": "VAT0230",
+                        "title": "사업자단위과세의 사업장별부가가치세과세표준신고명세서",
+                        "tileType": "sap.ushell.ui.tile.StaticTile",
+                        "properties": {
+                          "chipId": "VAT0230",
+                          "title": "사업자단위과세의 사업장별부가가치세과세표준신고명세서",
+                          "info": "",
+                          "targetURL": "./bsnc_vat_0230/webapp"
+                        }
+                    }                                   
+                ]
+              }              
+            ]
+          }
+        }
+      },
+      "NavTargetResolution": {
+        "config": {
+          "enableClientSideTargetResolution": true
+        }
+      },
+      "ClientSideTargetResolution": {
+        "adapter": {
+          "config": {
+            "inbounds": {
+              "actionApprovals": {
+                "semanticObject": "V4Approvals",
+                "action": "manage",
+                "title": "Approvals",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=approvals",
+                  "url": "approval/webapp"
+                }
+              },
+              "actionApprovalsUI5latest": {
+                "semanticObject": "V4Approvals",
+                "action": "manageUI5latest",
+                "title": "V4Approvals",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=approvalUI5latest",
+                  "url": "approvalUI5latest/webapp"
+                }
+              },
+              "actionBooks": {
+                "semanticObject": "V4Books",
+                "action": "display",
+                "title": "Browse Books",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=bookshop",
+                  "url": "browse/webapp"
+                },
+                "indicatorDataSource": {
+                  "path": "catalog/Books/$count",
+                  "refresh": 600
+                }
+              },
+              "actionBooksUI5latest": {
+                "semanticObject": "V4Books",
+                "action": "displayUI5latest",
+                "title": "Browse Books",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=bookshopUI5latest",
+                  "url": "browseUI5latest/webapp"
+                },
+                "indicatorDataSource": {
+                  "path": "catalog/Books/$count",
+                  "refresh": 600
+                }
+              },
+              "manageBooks": {
+                "semanticObject": "V4Books",
+                "action": "manage",
+                "title": "Manage Books",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=admin",
+                  "url": "admin/webapp"
+                },
+                "indicatorDataSource": {
+                  "path": "catalog/Books/$count",
+                  "refresh": 600
+                }
+              },
+              "actionAuthors": {
+                "semanticObject": "V4Authors",
+                "action": "manage",
+                "title": "Authors",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=authors",
+                  "url": "authors/webapp"
+                }
+              },
+              "actionOrders": {
+                "semanticObject": "V4Orders",
+                "action": "manage",
+                "title": "Orders",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=orders",
+                  "url": "orders/webapp"
+                }
+              },
+              "actionOrdersUI5latest": {
+                "semanticObject": "V4Orders",
+                "action": "manageUI5latest",
+                "title": "Orders",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=ordersUI5latest",
+                  "url": "ordersUI5latest/webapp"
+                }
+              },
+              "actionV2OrdersNoExt": {
+                "semanticObject": "OrdersNoExt",
+                "action": "manage",
+                "title": "Orders no Extension",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.orders-no-ext",
+                  "url": "v2/orders-no-ext"
+                }
+              },
+              "actionV2Orders": {
+                "semanticObject": "Orders",
+                "action": "manage",
+                "title": "Orders",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.orders",
+                  "url": "v2/orders"
+                }
+              },
+              "actionV2OrdersUI5latest": {
+                "semanticObject": "Orders",
+                "action": "manageUI5latest",
+                "title": "Orders",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.ordersUI5latest",
+                  "url": "v2/ordersUI5latest"
+                }
+              },
+              "actionRole": {
+                "semanticObject": "V4Role",
+                "action": "manage",
+                "title": "Role",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=role",
+                  "url": "role/webapp"
+                }
+              },
+              "actionRoleUI5latest": {
+                "semanticObject": "V4Role",
+                "action": "manageUI5latest",
+                "title": "Role",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=roleUI5latest",
+                  "url": "roleUI5latest/webapp"
+                }
+              },
+              "actionV2Role": {
+                "semanticObject": "Role",
+                "action": "manage",
+                "title": "Role",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.role",
+                  "url": "v2/role"
+                }
+              },
+              "actionV2RoleUI5latest": {
+                "semanticObject": "Role",
+                "action": "manageUI5latest",
+                "title": "Role",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.roleUI5latest",
+                  "url": "v2/roleUI5latest"
+                }
+              },
+              "actionWorkAssignmentsUI5latest": {
+                "semanticObject": "V4WorkAssignmentsUI5latest",
+                "action": "manage",
+                "title": "Work Assignments",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=WorkAssignmentsUI5latest",
+                  "url": "workAssignmentsUI5latest/webapp"
+                }
+              },
+              "actionProductsUI5latest": {
+                "semanticObject": "ProductsUI5latest",
+                "action": "manage",
+                "title": "Work Assignments",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=productUI5latest",
+                  "url": "productUI5latest/webapp"
+                }
+              },
+              "actionWorkAssignments": {
+                "semanticObject": "V4WorkAssignments",
+                "action": "manage",
+                "title": "WorkAssignments",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=WorkAssignments",
+                  "url": "workAssignments/webapp"
+                }
+              },
+              "actionUsersUI5latest": {
+                "semanticObject": "V4UsersUI5latest",
+                "action": "manage",
+                "title": "Users",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=usersUI5latest",
+                  "url": "usersUI5latest/webapp"
+                }
+              },
+              "actionUsers": {
+                "semanticObject": "V4Users",
+                "action": "manage",
+                "title": "Users",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=users",
+                  "url": "users/webapp"
+                }
+              },
+              "actionV2Users": {
+                "semanticObject": "Users",
+                "action": "manage",
+                "title": "Users",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.users.admin",
+                  "url": "v2/users-admin"
+                }
+              },
+              "actionV2UsersUI5latest": {
+                "semanticObject": "UsersUI5latest",
+                "action": "manage",
+                "title": "Users",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.usersUI5latest",
+                  "url": "v2/users-adminUI5latest"
+                }
+              },
+              "actionV2Approvals": {
+                "semanticObject": "Approvals",
+                "action": "manage",
+                "title": "Approvals",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.approvals",
+                  "url": "v2/approval"
+                }
+              },
+              "actionV2ApprovalsUI5latest": {
+                "semanticObject": "Approvals",
+                "action": "manageUI5latest",
+                "title": "Approvals",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.approvalUI5latest",
+                  "url": "v2/approvalUI5latest"
+                }
+              },
+              "actionV2Publishers": {
+                "semanticObject": "Publishers",
+                "action": "display",
+                "title": "Publishers",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.publishers",
+                  "url": "v2/publishers"
+                }
+              },
+              "actionV2Authors": {
+                "semanticObject": "Authors",
+                "action": "display",
+                "title": "Authors",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.authors",
+                  "url": "v2/authors"
+                }
+              },
+              "actionV2AuthorsAdmin": {
+                "semanticObject": "Authors",
+                "action": "manage",
+                "title": "Authors Admin",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.authors.admin",
+                  "url": "v2/authors-admin"
+                }
+              },
+              "actionV2BooksDisplay": {
+                "semanticObject": "Books",
+                "action": "display",
+                "title": "Browse Books",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.books",
+                  "url": "v2/books"
+                }
+              },
+              "actionV2Books": {
+                "semanticObject": "Books",
+                "action": "displayUI5latest",
+                "title": "Browse Books",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.booksUI5latest",
+                  "url": "v2/booksUI5latest"
+                }
+              },
+              "actionV2BooksFreestyle": {
+                "semanticObject": "Books",
+                "action": "displayUI5latestFreestyle",
+                "title": "Browse Books",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.booksfreestyle",
+                  "url": "v2/books-freestyle/webapp"
+                }
+              },
+              "actionV2BooksFreestyleApp": {
+                "semanticObject": "Books",
+                "action": "displayUI5latestFreestyleApp",
+                "title": "Browse Books",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.booksfreestyleapp",
+                  "url": "v2/books-freestyle-app/webapp"
+                }
+              },
+              "actionV2AuthorsUI5latest": {
+                "semanticObject": "Authors",
+                "action": "displayUI5latest",
+                "title": "Browse Authors",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.authorsUI5latest",
+                  "url": "v2/authorsUI5latest"
+                }
+              },
+              "actionAuthorsUI5latest": {
+                "semanticObject": "V4Authors",
+                "action": "displayUI5latest",
+                "title": "Browse Authors",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=authorsUI5latest",
+                  "url": "authorsUI5latest/webapp"
+                }
+              },
+              "actionV2BooksAdmin": {
+                "semanticObject": "Books",
+                "action": "manage",
+                "title": "Books Admin",
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "resolutionResult": {
+                  "applicationType": "SAPUI5",
+                  "additionalInformation": "SAPUI5.Component=v2.books.admin",
+                  "url": "v2/books-admin"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
