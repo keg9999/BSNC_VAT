@@ -1,0 +1,1 @@
+using BSNC_VAT_0110_SERVICE as service from '../../srv/BSNC_VAT_SERVICE';

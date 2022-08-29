@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema Namespace="BSNC_VAT_0060_SERVICE" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+            <EntityContainer Name="EntityContainer">
+                <EntitySet Name="BSNC_VAT_0060H" EntityType="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H">
+                    <NavigationPropertyBinding Path="SiblingEntity" Target="BSNC_VAT_0060H"/>
+                </EntitySet>
+                <EntitySet Name="BSNC_VAT_0060H_UI" EntityType="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI">
+                    <NavigationPropertyBinding Path="SiblingEntity" Target="BSNC_VAT_0060H_UI"/>
+                </EntitySet>
+            </EntityContainer>
+            <EntityType Name="BSNC_VAT_0060H">
+                <Key>
+                    <PropertyRef Name="OBJECTNUM"/>
+                    <PropertyRef Name="IsActiveEntity"/>
+                </Key>
+                <Property Name="createdAt" Type="Edm.DateTimeOffset" Precision="7"/>
+                <Property Name="createdBy" Type="Edm.String" MaxLength="255"/>
+                <Property Name="modifiedAt" Type="Edm.DateTimeOffset" Precision="7"/>
+                <Property Name="modifiedBy" Type="Edm.String" MaxLength="255"/>
+                <Property Name="COMPANYCD" Type="Edm.String" MaxLength="20" DefaultValue="ZZ"/>
+                <Property Name="OBJECTCODE" Type="Edm.String" MaxLength="50" DefaultValue="BSNC_VAT_0060"/>
+                <Property Name="OBJECTNUM" Type="Edm.Guid" Nullable="false"/>
+                <Property Name="CANCELED" Type="Edm.String" MaxLength="1" DefaultValue="N"/>
+                <Property Name="COMMIT" Type="Edm.String" MaxLength="10" DefaultValue="COMMIT"/>
+                <Property Name="UNACTIVE" Type="Edm.String" MaxLength="1" DefaultValue="N"/>
+                <Property Name="STRDATE" Type="Edm.DateTimeOffset" DefaultValue="2000-01-01"/>
+                <Property Name="ENDDATE" Type="Edm.DateTimeOffset" DefaultValue="2100-12-31"/>
+                <Property Name="YEAR" Type="Edm.String" MaxLength="4"/>
+                <Property Name="GUBUN" Type="Edm.String" MaxLength="2"/>
+                <Property Name="MM" Type="Edm.String" MaxLength="2"/>
+                <Property Name="BPLID" Type="Edm.String" MaxLength="10"/>
+                <Property Name="CONFIRM" Type="Edm.String" MaxLength="1"/>
+                <Property Name="REFDATE" Type="Edm.Date"/>
+                <Property Name="TAXDATE" Type="Edm.Date"/>
+                <Property Name="CARDCODE" Type="Edm.String" MaxLength="30"/>
+                <Property Name="CARDNAME" Type="Edm.String" MaxLength="150"/>
+                <Property Name="VATNUM" Type="Edm.String" MaxLength="30"/>
+                <Property Name="CARDNO" Type="Edm.String" MaxLength="50"/>
+                <Property Name="VATGROUP" Type="Edm.String" MaxLength="10"/>
+                <Property Name="VATNAME" Type="Edm.String" MaxLength="100"/>
+                <Property Name="LCAMT" Type="Edm.Decimal" Scale="0" Precision="20"/>
+                <Property Name="TOTAMT" Type="Edm.Decimal" Scale="0" Precision="20"/>
+                <Property Name="TRANSTYPE" Type="Edm.String" MaxLength="30"/>
+                <Property Name="TRANSID" Type="Edm.String" MaxLength="30"/>
+                <Property Name="LINENUM" Type="Edm.String" MaxLength="20"/>
+                <Property Name="UPTAE" Type="Edm.String" MaxLength="50"/>
+                <Property Name="UPJONG" Type="Edm.String" MaxLength="50"/>
+                <Property Name="REMARK" Type="Edm.String" MaxLength="200"/>
+                <Property Name="DEBIT" Type="Edm.Decimal" Scale="0" Precision="20"/>
+                <Property Name="CREDIT" Type="Edm.Decimal" Scale="0" Precision="20"/>
+                <Property Name="RTRANSID" Type="Edm.String" MaxLength="10"/>
+                <Property Name="BASEREF" Type="Edm.String" MaxLength="30"/>
+                <Property Name="CYN" Type="Edm.String" MaxLength="10"/>
+                <Property Name="CATEGORY" Type="Edm.String" MaxLength="10"/>
+                <Property Name="MRCHNAME" Type="Edm.String" MaxLength="100"/>
+                <Property Name="SHIPDATE" Type="Edm.Date"/>
+                <Property Name="DCLNO" Type="Edm.String" MaxLength="100"/>
+                <Property Name="CURR" Type="Edm.String" MaxLength="20"/>
+                <Property Name="RATE" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="FCAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="TARGETYN" Type="Edm.String" MaxLength="10"/>
+                <Property Name="TARGETTYPE" Type="Edm.String" MaxLength="10"/>
+                <Property Name="BASETYPE" Type="Edm.String" MaxLength="10"/>
+                <Property Name="PROFITC" Type="Edm.String" MaxLength="10"/>
+                <Property Name="PROFITN" Type="Edm.String" MaxLength="100"/>
+                <Property Name="OCRCODE5" Type="Edm.String" MaxLength="10"/>
+                <Property Name="OCRNAME5" Type="Edm.String" MaxLength="100"/>
+                <Property Name="BILDELYN" Type="Edm.String" MaxLength="1"/>
+                <Property Name="PRJCODE" Type="Edm.String" MaxLength="50"/>
+                <Property Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="true"/>
+                <Property Name="HasActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+                <Property Name="HasDraftEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+                <NavigationProperty Name="DraftAdministrativeData" Type="BSNC_VAT_0060_SERVICE.DraftAdministrativeData" ContainsTarget="true"/>
+                <NavigationProperty Name="SiblingEntity" Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H"/>
+            </EntityType>
+            <EntityType Name="BSNC_VAT_0060H_UI">
+                <Key>
+                    <PropertyRef Name="OBJECTNUM"/>
+                    <PropertyRef Name="IsActiveEntity"/>
+                </Key>
+                <Property Name="OBJECTNUM" Type="Edm.Guid" Nullable="false"/>
+                <Property Name="BPLID" Type="Edm.String" MaxLength="10"/>
+                <Property Name="YEAR" Type="Edm.String" MaxLength="4"/>
+                <Property Name="GUBUN" Type="Edm.String" MaxLength="2"/>
+                <Property Name="REFDATE" Type="Edm.String" MaxLength="10"/>
+                <Property Name="BILLYN" Type="Edm.Boolean"/>
+                <Property Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="true"/>
+                <Property Name="HasActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+                <Property Name="HasDraftEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+                <NavigationProperty Name="DraftAdministrativeData" Type="BSNC_VAT_0060_SERVICE.DraftAdministrativeData" ContainsTarget="true"/>
+                <NavigationProperty Name="SiblingEntity" Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI"/>
+            </EntityType>
+            <EntityType Name="DraftAdministrativeData">
+                <Key>
+                    <PropertyRef Name="DraftUUID"/>
+                </Key>
+                <Property Name="DraftUUID" Type="Edm.Guid" Nullable="false"/>
+                <Property Name="CreationDateTime" Type="Edm.DateTimeOffset" Precision="7"/>
+                <Property Name="CreatedByUser" Type="Edm.String" MaxLength="256"/>
+                <Property Name="DraftIsCreatedByMe" Type="Edm.Boolean"/>
+                <Property Name="LastChangeDateTime" Type="Edm.DateTimeOffset" Precision="7"/>
+                <Property Name="LastChangedByUser" Type="Edm.String" MaxLength="256"/>
+                <Property Name="InProcessByUser" Type="Edm.String" MaxLength="256"/>
+                <Property Name="DraftIsProcessedByMe" Type="Edm.Boolean"/>
+            </EntityType>
+            <Action Name="draftPrepare" IsBound="true" EntitySetPath="in">
+                <Parameter Name="in" Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H"/>
+                <Parameter Name="SideEffectsQualifier" Type="Edm.String"/>
+                <ReturnType Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H"/>
+            </Action>
+            <Action Name="draftPrepare" IsBound="true" EntitySetPath="in">
+                <Parameter Name="in" Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI"/>
+                <Parameter Name="SideEffectsQualifier" Type="Edm.String"/>
+                <ReturnType Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI"/>
+            </Action>
+            <Action Name="draftActivate" IsBound="true" EntitySetPath="in">
+                <Parameter Name="in" Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H"/>
+                <ReturnType Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H"/>
+            </Action>
+            <Action Name="draftActivate" IsBound="true" EntitySetPath="in">
+                <Parameter Name="in" Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI"/>
+                <ReturnType Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI"/>
+            </Action>
+            <Action Name="draftEdit" IsBound="true" EntitySetPath="in">
+                <Parameter Name="in" Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H"/>
+                <Parameter Name="PreserveChanges" Type="Edm.Boolean"/>
+                <ReturnType Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H"/>
+            </Action>
+            <Action Name="draftEdit" IsBound="true" EntitySetPath="in">
+                <Parameter Name="in" Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI"/>
+                <Parameter Name="PreserveChanges" Type="Edm.Boolean"/>
+                <ReturnType Type="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI"/>
+            </Action>
+            <Annotations Target="BSNC_VAT_0060_SERVICE.EntityContainer/BSNC_VAT_0060H">
+                <Annotation Term="Common.DraftRoot">
+                    <Record Type="Common.DraftRootType">
+                        <PropertyValue Property="ActivationAction" String="BSNC_VAT_0060_SERVICE.draftActivate"/>
+                        <PropertyValue Property="EditAction" String="BSNC_VAT_0060_SERVICE.draftEdit"/>
+                        <PropertyValue Property="PreparationAction" String="BSNC_VAT_0060_SERVICE.draftPrepare"/>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H/createdAt">
+                <Annotation Term="UI.HiddenFilter" Bool="true"/>
+                <Annotation Term="Core.Immutable" Bool="true"/>
+                <Annotation Term="Core.Computed" Bool="true"/>
+                <Annotation Term="Common.Label" String="{i18n>CreatedAt}"/>
+                </Annotations>
+                <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H/createdBy">
+                    <Annotation Term="UI.HiddenFilter" Bool="true"/>
+                    <Annotation Term="Core.Immutable" Bool="true"/>
+                    <Annotation Term="Core.Computed" Bool="true"/>
+                    <Annotation Term="Core.Description" String="{i18n>UserID.Description}"/>
+                        <Annotation Term="Common.Label" String="{i18n>CreatedBy}"/>
+                        </Annotations>
+                        <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H/modifiedAt">
+                            <Annotation Term="UI.HiddenFilter" Bool="true"/>
+                            <Annotation Term="Core.Computed" Bool="true"/>
+                            <Annotation Term="Common.Label" String="{i18n>ChangedAt}"/>
+                            </Annotations>
+                            <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H/modifiedBy">
+                                <Annotation Term="UI.HiddenFilter" Bool="true"/>
+                                <Annotation Term="Core.Computed" Bool="true"/>
+                                <Annotation Term="Core.Description" String="{i18n>UserID.Description}"/>
+                                    <Annotation Term="Common.Label" String="{i18n>ChangedBy}"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H/IsActiveEntity">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H/HasActiveEntity">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H/HasDraftEntity">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H/DraftAdministrativeData">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.EntityContainer/BSNC_VAT_0060H_UI">
+                                        <Annotation Term="Common.DraftRoot">
+                                            <Record Type="Common.DraftRootType">
+                                                <PropertyValue Property="ActivationAction" String="BSNC_VAT_0060_SERVICE.draftActivate"/>
+                                                <PropertyValue Property="EditAction" String="BSNC_VAT_0060_SERVICE.draftEdit"/>
+                                                <PropertyValue Property="PreparationAction" String="BSNC_VAT_0060_SERVICE.draftPrepare"/>
+                                            </Record>
+                                        </Annotation>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI/IsActiveEntity">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI/HasActiveEntity">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI/HasDraftEntity">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.BSNC_VAT_0060H_UI/DraftAdministrativeData">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0060_SERVICE.DraftAdministrativeData">
+                                        <Annotation Term="Common.Label" String="{i18n>Draft_DraftAdministrativeData}"/>
+                                        </Annotations>
+                                        <Annotations Target="BSNC_VAT_0060_SERVICE.DraftAdministrativeData/DraftUUID">
+                                            <Annotation Term="UI.Hidden" Bool="true"/>
+                                            <Annotation Term="Common.Label" String="{i18n>Draft_DraftUUID}"/>
+                                            </Annotations>
+                                            <Annotations Target="BSNC_VAT_0060_SERVICE.DraftAdministrativeData/CreationDateTime">
+                                                <Annotation Term="Common.Label" String="{i18n>Draft_CreationDateTime}"/>
+                                                </Annotations>
+                                                <Annotations Target="BSNC_VAT_0060_SERVICE.DraftAdministrativeData/CreatedByUser">
+                                                    <Annotation Term="Common.Label" String="{i18n>Draft_CreatedByUser}"/>
+                                                    </Annotations>
+                                                    <Annotations Target="BSNC_VAT_0060_SERVICE.DraftAdministrativeData/DraftIsCreatedByMe">
+                                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                                        <Annotation Term="Common.Label" String="{i18n>Draft_DraftIsCreatedByMe}"/>
+                                                        </Annotations>
+                                                        <Annotations Target="BSNC_VAT_0060_SERVICE.DraftAdministrativeData/LastChangeDateTime">
+                                                            <Annotation Term="Common.Label" String="{i18n>Draft_LastChangeDateTime}"/>
+                                                            </Annotations>
+                                                            <Annotations Target="BSNC_VAT_0060_SERVICE.DraftAdministrativeData/LastChangedByUser">
+                                                                <Annotation Term="Common.Label" String="{i18n>Draft_LastChangedByUser}"/>
+                                                                </Annotations>
+                                                                <Annotations Target="BSNC_VAT_0060_SERVICE.DraftAdministrativeData/InProcessByUser">
+                                                                    <Annotation Term="Common.Label" String="{i18n>Draft_InProcessByUser}"/>
+                                                                    </Annotations>
+                                                                    <Annotations Target="BSNC_VAT_0060_SERVICE.DraftAdministrativeData/DraftIsProcessedByMe">
+                                                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                                                        <Annotation Term="Common.Label" String="{i18n>Draft_DraftIsProcessedByMe}"/>
+                                                                        </Annotations>
+                                                                    </Schema>
+                                                                </edmx:DataServices>
+                                                            </edmx:Edmx>

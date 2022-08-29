@@ -17,7 +17,8 @@
     "start": "cds run",
     "watch-bsnc_vat_0000": "cds watch --open bsnc_vat_0000/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-bsnc_vat_0010": "cds watch --open bsnc_vat_0010/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-bsnc_vat_0020": "cds watch --open bsnc_vat_0020/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-bsnc_vat_0020": "cds watch --open bsnc_vat_0020/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-bsnc_vat_0110": "cds watch --open bsnc_vat_0110/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -47,6 +48,7 @@
   "sapux": [
     "app/bsnc_vat_0000",
     "app/bsnc_vat_0010",
-    "app/bsnc_vat_0020"
+    "app/bsnc_vat_0020",
+    "app/bsnc_vat_0110"
   ]
 }
