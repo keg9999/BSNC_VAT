@@ -1,0 +1,34 @@
+{
+    "scopes": [
+        {
+          "name": "$XSAPPNAME.BSNCViewer",
+          "description": "BSNC Viewer"
+        },
+        {
+          "name": "$XSAPPNAME.BSNCManager",
+          "description": "BSNC Manager"
+        }
+      ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "BSNCViewer",
+      "description": "BSNC Viewer",
+      "scope-references": [
+        "$XSAPPNAME.BSNCViewer"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "BSNCManager",
+      "description": "BSNC Manager",
+      "scope-references": [
+        "$XSAPPNAME.BSNCManager"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
+
+
+  

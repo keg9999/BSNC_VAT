@@ -18,7 +18,7 @@
                       "tileType": "sap.ushell.ui.tile.StaticTile",
                       "properties": {
                         "chipId": "VAT0000",
-                        "title": "공통코드관리",
+                        "title": "공통코드관리\nCommon Code",
                         "info" : "",
                         "targetURL" : "./bsnc_vat_0000/webapp"
                       }
@@ -29,7 +29,7 @@
                     "tileType": "sap.ushell.ui.tile.StaticTile",
                     "properties": {
                       "chipId": "VAT0010",
-                      "title": "환경설정",
+                      "title": "환경설정\nVAT Setup",
                       "info" : "",
                       "targetURL" : "./bsnc_vat_0010/webapp"
                     }
@@ -40,7 +40,7 @@
                     "tileType": "sap.ushell.ui.tile.StaticTile",
                     "properties": {
                       "chipId": "VAT0015",
-                      "title": "회사설정",
+                      "title": "회사설정\nCompany Setup",
                       "info" : "",
                       "targetURL" : "./bsnc_vat_0015/webapp"
                     }
@@ -51,20 +51,9 @@
                     "tileType": "sap.ushell.ui.tile.StaticTile",
                     "properties": {
                       "chipId": "VAT0020",
-                      "title": "부가세그룹설정",
+                      "title": "부가세그룹설정\nVAT Group Setup",
                       "info" : "",
                       "targetURL" : "./bsnc_vat_0020/webapp"
-                    }
-                },
-                {
-                    "id" : "VAT0030",
-                    "title" : "단위사업장 적용번호",
-                    "tileType": "sap.ushell.ui.tile.StaticTile",
-                    "properties": {
-                      "chipId": "VAT0030",
-                      "title": "단위사업장 적용번호",
-                      "info" : "",
-                      "targetURL" : "./bsnc_vat_0030/webapp"
                     }
                 },
                 {
@@ -73,7 +62,7 @@
                     "tileType": "sap.ushell.ui.tile.StaticTile",
                     "properties": {
                       "chipId": "VAT0040",
-                      "title": "부가세기준정보",
+                      "title": "부가세기준정보\nVAT Base Information",
                       "info" : "",
                       "targetURL" : "./bsnc_vat_0040/webapp"
                     }
@@ -84,7 +73,7 @@
                     "tileType": "sap.ushell.ui.tile.StaticTile",
                     "properties": {
                       "chipId": "VAT0050",
-                      "title": "경감공제 가산세액 등록",
+                      "title": "경감공제 가산세액 등록\nVAT Reduction addition",
                       "info" : "",
                       "targetURL" : "./bsnc_vat_0050/webapp"
                     }
@@ -104,20 +93,9 @@
                     "tileType": "sap.ushell.ui.tile.StaticTile",
                     "properties": {
                       "chipId": "VAT0060",
-                      "title": "부가세 자료 생성",
+                      "title": "부가세 자료 생성\nImport VAT Data",
                       "info": "",
                       "targetURL": "./bsnc_vat_0060/webapp"
-                    }
-                  },
-                  {
-                    "id": "VAT0070",
-                    "title": "부가세 자료 Upload",
-                    "tileType": "sap.ushell.ui.tile.StaticTile",
-                    "properties": {
-                      "chipId": "VAT0070",
-                      "title": "부가세 자료 Upload",
-                      "info": "",
-                      "targetURL": "./bsnc_vat_0070/webapp"
                     }
                   },
                   {
@@ -126,7 +104,7 @@
                     "tileType": "sap.ushell.ui.tile.StaticTile",
                     "properties": {
                       "chipId": "VAT0080",
-                      "title": "부가세 자료 관리",
+                      "title": "부가세 자료 관리\nVAT Data Management",
                       "info": "",
                       "targetURL": "./bsnc_vat_0080/webapp"
                     }
@@ -137,7 +115,7 @@
                     "tileType": "sap.ushell.ui.tile.StaticTile",
                     "properties": {
                       "chipId": "VAT0090",
-                      "title": "과세표준 생성",
+                      "title": "과세표준 생성\nGeneration Of VAT Base",
                       "info": "",
                       "targetURL": "./bsnc_vat_0090/webapp"
                     }
@@ -148,7 +126,7 @@
                     "tileType": "sap.ushell.ui.tile.StaticTile",
                     "properties": {
                       "chipId": "VAT0095",
-                      "title": "과세표자료 조회",
+                      "title": "과세표자료 조회\nVAT Base Check",
                       "info": "",
                       "targetURL": "./bsnc_vat_0095/webapp"
                     }
@@ -168,7 +146,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0100",
-                          "title": "신고자료생성",
+                          "title": "신고자료생성\nGeneration Of Tax Base",
                           "info": "",
                           "targetURL": "./bsnc_vat_0100/webapp"
                         }
@@ -179,7 +157,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0110",
-                          "title": "신고파일생성",
+                          "title": "신고파일생성\nGenerating Reporting File",
                           "info": "",
                           "targetURL": "./bsnc_vat_0110/webapp"
                         }
@@ -190,7 +168,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0120",
-                          "title": "신고서 집계/출력",
+                          "title": "신고서 집계/출력\nVAT Declaration Form",
                           "info": "",
                           "targetURL": "./bsnc_vat_0120/webapp"
                         }
@@ -210,7 +188,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0130",
-                          "title": "세금계산서합계표",
+                          "title": "세금계산서합계표\nVAT Invoice Total Table",
                           "info": "",
                           "targetURL": "./bsnc_vat_0130/webapp"
                         }
@@ -221,7 +199,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0140",
-                          "title": "계산서합계표",
+                          "title": "계산서합계표\nBill Total Table",
                           "info": "",
                           "targetURL": "./bsnc_vat_0140/webapp"
                         }
@@ -232,7 +210,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0150",
-                          "title": "합계표 조회",
+                          "title": "합계표 조회\nTotal Table Inquiry",
                           "info": "",
                           "targetURL": "./bsnc_vat_0150/webapp"
                         }
@@ -243,7 +221,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT016",
-                          "title": "수출실적명세서",
+                          "title": "수출실적명세서\nExport Statement",
                           "info": "",
                           "targetURL": "./bsnc_vat_0160/webapp"
                         }
@@ -254,7 +232,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0170",
-                          "title": "영세율첨부서류명세서",
+                          "title": "영세율첨부서류명세서\nZero-VAT Attachment",
                           "info": "",
                           "targetURL": "./bsnc_vat_0170/webapp"
                         }
@@ -265,7 +243,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0180",
-                          "title": "영세율 매출명세서",
+                          "title": "영세율 매출명세서\nZero-VAT Sales Statement",
                           "info": "",
                           "targetURL": "./bsnc_vat_0180/webapp"
                         }
@@ -276,7 +254,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0190",
-                          "title": "건물등감가상각자산취득명세서",
+                          "title": "건물등감가상각자산취득명세서\nFixed Asset Acquisition Statement",
                           "info": "",
                           "targetURL": "./bsnc_vat_0190/webapp"
                         }
@@ -287,7 +265,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0200",
-                          "title": "신용카드매출전표등발행금액명세서",
+                          "title": "신용카드매출전표등발행금액명세서\nCredit Card Statement",
                           "info": "",
                           "targetURL": "./bsnc_vat_0200/webapp"
                         }
@@ -298,7 +276,7 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0210",
-                          "title": "공제받지못할매입명세서",
+                          "title": "공제받지못할매입명세서\nUndeductible VAT Statement",
                           "info": "",
                           "targetURL": "./bsnc_vat_0210/webapp"
                         }
@@ -309,22 +287,12 @@
                         "tileType": "sap.ushell.ui.tile.StaticTile",
                         "properties": {
                           "chipId": "VAT0220",
-                          "title": "부동산임대 공급가액 명세서",
+                          "title": "부동산임대 공급가액 명세서\nReal Estate Lease Statement",
                           "info": "",
                           "targetURL": "./bsnc_vat_0220/webapp"
                         }
-                    } ,
-                    {
-                        "id": "VAT0230",
-                        "title": "사업자단위과세의 사업장별부가가치세과세표준신고명세서",
-                        "tileType": "sap.ushell.ui.tile.StaticTile",
-                        "properties": {
-                          "chipId": "VAT0230",
-                          "title": "사업자단위과세의 사업장별부가가치세과세표준신고명세서",
-                          "info": "",
-                          "targetURL": "./bsnc_vat_0230/webapp"
-                        }
-                    }                                   
+                    } 
+                                                     
                 ]
               }              
             ]

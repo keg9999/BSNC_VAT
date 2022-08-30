@@ -1,0 +1,164 @@
+OBJECTNUM;P_OBJECTNUM_OBJECTNUM;code;VALCD;VALNM;USERYN;SORT;RMK1;RMK2;createdAt;createdBy;modifiedAt;modifiedBy
+b5df6d37-66a2-4ce1-b91c-be5fc88e1001;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;59;사업자미등록 등;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1002;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;60;세금계산서 지연발급 등;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1003;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;61;세금계산서 지연수취;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1004;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;62;세금계산서 미발급 등;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1005;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;63;전자세금계산서 지연전송;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1006;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;64;전자세금계산서 미전송;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1007;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;65;세금계산서합계표 제출불성실;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1008;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;66;세금계산서합계표 지연제출;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1009;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;67;신고불성실 무신고(일반);Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1010;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;68;신고불성실 무신고(부당);Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1011;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;69;신고불성실 과소 초과환급신고(일반);Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1012;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;70;신고불성실 과소 초과환급신고(부당);Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1013;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;71;납부불성실;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1014;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;72;영세율과세표준신고불성실;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1015;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;73;현금매출명세서 불성실;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1016;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;74;부동산임대공급가액명세서불성실;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1017;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;75;매입자 납부특례 거래계좌 미사용;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1018;b5df6d37-66a2-4ce1-b91c-be5fc88e6001;AddTType;76;매입자 납부특례 거래계좌 지연입금;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1019;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;1;한국은행;Y;1;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1020;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;2;산업은행;Y;2;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1021;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;3;기업은행;Y;3;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1022;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;4;국민은행;Y;4;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1023;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;7;수협;Y;5;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1024;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;8;수출입은행;Y;6;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1025;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;11;농협;Y;7;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1026;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;20;우리은행;Y;8;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1027;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;23;제일은행;Y;9;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1028;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;27;한미은행;Y;10;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1029;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;31;대구은행;Y;11;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1030;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;32;부산은행;Y;12;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1031;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;34;광주은행;Y;13;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1032;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;35;제주은행;Y;14;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1033;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;37;전북은행;Y;15;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1034;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;39;경남은행;Y;16;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1035;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;45;새마을금고;Y;17;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1036;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;48;신협;Y;18;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1037;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;50;상호저축은행;Y;19;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1038;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;51;외국은행;Y;20;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1039;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;53;씨티은행;Y;21;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1040;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;54;HSBC은행;Y;22;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1041;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;55;도이치은행;Y;23;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1042;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;56;에이비엔암로은행;Y;24;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1043;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;57;UFJ은행;Y;25;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1044;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;58;미즈호코퍼레이트은행;Y;26;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1045;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;59;도쿄미쓰비시은행;Y;27;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1046;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;60;B.O.A;Y;28;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1047;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;71;우체국;Y;29;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1048;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;76;신용보증기금;Y;30;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1049;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;77;기술신용보증기금;Y;31;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1050;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;81;하나은행;Y;32;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1051;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;88;신한은행;Y;33;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1052;b5df6d37-66a2-4ce1-b91c-be5fc88e6002;BANK;99;금융결제원;Y;34;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1053;b5df6d37-66a2-4ce1-b91c-be5fc88e6003;CredType;-;-;Y;1;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1054;b5df6d37-66a2-4ce1-b91c-be5fc88e6003;CredType;1;기타신용카드;Y;2;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1055;b5df6d37-66a2-4ce1-b91c-be5fc88e6003;CredType;2;현금영수증;Y;3;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1056;b5df6d37-66a2-4ce1-b91c-be5fc88e6003;CredType;3;화물운전자복지카드;Y;4;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1057;b5df6d37-66a2-4ce1-b91c-be5fc88e6003;CredType;4;사업용신카드;Y;5;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1058;b5df6d37-66a2-4ce1-b91c-be5fc88e6003;CredType;5;"신용;지불;기명식 신용카드";Y;6;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1059;b5df6d37-66a2-4ce1-b91c-be5fc88e6003;CredType;6;"직불;기명식선불 전자지급수단";Y;7;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1060;b5df6d37-66a2-4ce1-b91c-be5fc88e6004;DeemAcct;112010100;원재료;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1061;b5df6d37-66a2-4ce1-b91c-be5fc88e6005;DEEMRATE;1;1;Y;1;4;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1062;b5df6d37-66a2-4ce1-b91c-be5fc88e6005;DEEMRATE;2;2;Y;2;104;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1063;b5df6d37-66a2-4ce1-b91c-be5fc88e6006;DIVACT;4102001010;제품매출;Y;;F;면세매출;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1064;b5df6d37-66a2-4ce1-b91c-be5fc88e6006;DIVACT;4103002010;임가공수입;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1065;b5df6d37-66a2-4ce1-b91c-be5fc88e6006;DIVACT;4101001010;상품매출;Y;;F;면세매출;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1066;b5df6d37-66a2-4ce1-b91c-be5fc88e6006;DIVACT;4103003010;임대료수입;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1067;b5df6d37-66a2-4ce1-b91c-be5fc88e6006;DIVACT;4103004010;기타매출;Y;;F;면세매출;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1068;b5df6d37-66a2-4ce1-b91c-be5fc88e6006;DIVACT;6103001010;수입수수료(판정);Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1069;b5df6d37-66a2-4ce1-b91c-be5fc88e6007;DIVAVAT;W5;10% 불공제매입공통매입(전자세금계산서);Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1070;b5df6d37-66a2-4ce1-b91c-be5fc88e6008;DIVTACT;4104001010;반제품매출;Y;F;면세매출;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1071;b5df6d37-66a2-4ce1-b91c-be5fc88e6008;DIVTACT;4103002010;임가공수입;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1072;b5df6d37-66a2-4ce1-b91c-be5fc88e6008;DIVTACT;4101001010;상품매출;Y;F;면세매출;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1073;b5df6d37-66a2-4ce1-b91c-be5fc88e6008;DIVTACT;4102001010;제품매출;Y;F;면세매출;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1074;b5df6d37-66a2-4ce1-b91c-be5fc88e6008;DIVTACT;4103001010;도축수수료;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1075;b5df6d37-66a2-4ce1-b91c-be5fc88e6008;DIVTACT;4103003010;임대료수입;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1076;b5df6d37-66a2-4ce1-b91c-be5fc88e6009;EGTType;52;전자신고세액공제;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1077;b5df6d37-66a2-4ce1-b91c-be5fc88e6009;EGTType;53;전자세금계산서 발급세액 공제;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1078;b5df6d37-66a2-4ce1-b91c-be5fc88e6009;EGTType;54;택시운송사업자경감세액;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1079;b5df6d37-66a2-4ce1-b91c-be5fc88e6009;EGTType;55;원산지확인서발급세액공제;N;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1080;b5df6d37-66a2-4ce1-b91c-be5fc88e6009;EGTType;56;현금영수증사업자세액공제;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1081;b5df6d37-66a2-4ce1-b91c-be5fc88e6009;EGTType;57;기타;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1082;b5df6d37-66a2-4ce1-b91c-be5fc88e6009;EGTType;Jan-55;대리납부 세액공제;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1083;b5df6d37-66a2-4ce1-b91c-be5fc88e6010;ETaxType;E;전자;Y;1;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1084;b5df6d37-66a2-4ce1-b91c-be5fc88e6010;ETaxType;G;일반;Y;2;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1085;b5df6d37-66a2-4ce1-b91c-be5fc88e6010;ETaxType;Z;기타;Y;3;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1086;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;K;"K + 사업자번호 : 매입매출세금계산서 (매입확장자:PER; 매출확장자:SAL)";Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1087;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;J;J  + 사업자번호 : 신용카드매입분;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1088;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;H;H + 사업자번호 : 매입매출계산서;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1089;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;A;A + 사업자번호 : 수출실적명세서;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1090;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;Z;Z + 사업자번호.V106 : 영세율첨부서류명세서;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1091;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;M;M + 사업자번호.V115 : 사업장별부가가치세과세표준신고명세서;N;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1092;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;U;U + 사업자번호.V166 : 사업자단위과세의 사업장별부가가치세과세표준신고명세서;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1093;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;E;E + 사업자번호.V120 : 부동산임대공급가액 명세서;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1094;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;L;L + 사업자번호.V174 : 내국신용장구매확인서전자발급명세서;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1095;b5df6d37-66a2-4ce1-b91c-be5fc88e6011;FileList;ZA;ZA + 사업자번호 : 관세환급금등명세서;N;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1096;b5df6d37-66a2-4ce1-b91c-be5fc88e6012;FixType;-;-;Y;1;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1097;b5df6d37-66a2-4ce1-b91c-be5fc88e6012;FixType;B;건물구축물;Y;2;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1098;b5df6d37-66a2-4ce1-b91c-be5fc88e6012;FixType;M;기계장치;Y;3;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1099;b5df6d37-66a2-4ce1-b91c-be5fc88e6012;FixType;C;차량운반구;Y;4;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1100;b5df6d37-66a2-4ce1-b91c-be5fc88e6012;FixType;E;기타;Y;5;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1101;b5df6d37-66a2-4ce1-b91c-be5fc88e6013;Gubn;11;1기예정;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1102;b5df6d37-66a2-4ce1-b91c-be5fc88e6013;Gubn;12;1기확정;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1103;b5df6d37-66a2-4ce1-b91c-be5fc88e6013;Gubn;21;2기예정;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1104;b5df6d37-66a2-4ce1-b91c-be5fc88e6013;Gubn;22;2기확정;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1105;b5df6d37-66a2-4ce1-b91c-be5fc88e6013;Gubn;3;영세율조기환급;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1106;b5df6d37-66a2-4ce1-b91c-be5fc88e6014;MenuXML;WINHI_TAX_KR;WINHI_TAX_KR;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1107;b5df6d37-66a2-4ce1-b91c-be5fc88e6015;NonType;-;-;Y;1;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1108;b5df6d37-66a2-4ce1-b91c-be5fc88e6015;NonType;1;필요적기재사항누락;Y;2;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1109;b5df6d37-66a2-4ce1-b91c-be5fc88e6015;NonType;2;사업과 직접관련없는지출;Y;3;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1110;b5df6d37-66a2-4ce1-b91c-be5fc88e6015;NonType;3;비영업용소형승용차 구입 및 유지;Y;4;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1111;b5df6d37-66a2-4ce1-b91c-be5fc88e6015;NonType;4;접대비 및 이와 유사한 비용관련;Y;5;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1112;b5df6d37-66a2-4ce1-b91c-be5fc88e6015;NonType;5;면세사업 관련;Y;6;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1113;b5df6d37-66a2-4ce1-b91c-be5fc88e6015;NonType;6;토지의 자본적 지출 관련;Y;7;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1114;b5df6d37-66a2-4ce1-b91c-be5fc88e6015;NonType;7;사업자등록전 매입세액;Y;8;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1115;b5df6d37-66a2-4ce1-b91c-be5fc88e6015;NonType;8;금거래계좌 미사용 관련 매입;Y;9;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1116;b5df6d37-66a2-4ce1-b91c-be5fc88e6016;RebateVAT;A9;관세환급금-상품;N;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1117;b5df6d37-66a2-4ce1-b91c-be5fc88e6017;ReType;10;일반환급;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1118;b5df6d37-66a2-4ce1-b91c-be5fc88e6017;ReType;20;영세율 환급;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1119;b5df6d37-66a2-4ce1-b91c-be5fc88e6017;ReType;30;시설투자 환급;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1120;b5df6d37-66a2-4ce1-b91c-be5fc88e6017;ReType;40;총괄납부주사업자환급;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1121;b5df6d37-66a2-4ce1-b91c-be5fc88e6017;ReType;41;총괄납부주사업자일반환급;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1122;b5df6d37-66a2-4ce1-b91c-be5fc88e6017;ReType;42;총괄납부주사업자영세율환급;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1123;b5df6d37-66a2-4ce1-b91c-be5fc88e6017;ReType;43;총괄납부주사업자시설투자환급;Y;;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1124;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX20;부가가치세신고서;Y;1;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1125;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX11;신용카드매출전표 등 발행금액 집계표;Y;2;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1126;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX09;영세율첨부서류제출명세서;Y;3;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1127;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX13;의제매입세액공제신고서;N;4;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1128;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX28;부동산임대공급가액명세서;Y;5;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1129;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX29;대손세액공제(변제)신고서;N;6;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1130;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX19;사업장별부가가치세과세표준 및 납부세액(환급세액)신고명세서;N;7;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1131;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX10;건물등 감가상각자산 취득명세서;Y;8;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1132;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX12;공제받지못할매입세액명세서;Y;9;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1133;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX18;사업자단위과세의 사업장별부가가치세과세표준및납부세액(환급세액)신고명세서;Y;10;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1134;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX14;내국신용장 ?구매확인서 전자발급명세서;N;11;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1135;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX15;영세율매출명세서;Y;12;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1136;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX06T;세금계산서합계표;Y;13;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1137;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX07;계산서합계표;Y;14;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1138;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX08;수출실적명세서;Y;15;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1139;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX06S;신용카드매출전표등수령명세서;Y;16;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1140;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX33;관세환급금등명세서;N;17;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1141;b5df6d37-66a2-4ce1-b91c-be5fc88e6018;STaxList;TAX34;사업장현황(음식점/숙박업)(확정신고시만해당);Y;18;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1142;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX806;"세금계산서합계표; 신용카드 수취분";Y;1;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1143;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX807;계산서합계표;Y;2;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1144;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX808;수출실적명세서;Y;3;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1145;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX809;영세율첨부서류제출명세서;Y;4;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1146;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX815;영세율 매출명세서;N;5;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1147;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX811;신용카드매출전표등 발행금액집계표;Y;6;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1148;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX812;공제받지못할 매입세액명세서;Y;7;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1149;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX813;의제매입세액공제신고서;N;8;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1150;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX818;사업자단위과세의 사업장별부가가치세과세표준및납부세액신고명세서;Y;10;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1151;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX819;사업장별부가가치세과세표준및납부세액신고명세서(총괄납부);N;11;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1152;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX828;부동산임대 공급가액 명세서;Y;9;수기등록;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1153;b5df6d37-66a2-4ce1-b91c-be5fc88e6019;TaxList;ZTAX833;관세환급금등명세서;N;12;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1154;b5df6d37-66a2-4ce1-b91c-be5fc88e6020;TaxStype;1;사업장별신고납부;N;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1155;b5df6d37-66a2-4ce1-b91c-be5fc88e6021;TaxStype;2;주사업장총괄납부;N;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1156;b5df6d37-66a2-4ce1-b91c-be5fc88e6022;TaxStype;3;사업자단위과세;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1157;b5df6d37-66a2-4ce1-b91c-be5fc88e6023;TaxType;T;과세;Y;1;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1158;b5df6d37-66a2-4ce1-b91c-be5fc88e6024;TaxType;Z;영세;Y;2;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1159;b5df6d37-66a2-4ce1-b91c-be5fc88e6025;TaxType;N;면세;Y;3;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1160;b5df6d37-66a2-4ce1-b91c-be5fc88e6026;TaxType;U;무관;Y;4;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1161;b5df6d37-66a2-4ce1-b91c-be5fc88e6022;UnitType;B;사업장;Y;0;;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1162;b5df6d37-66a2-4ce1-b91c-be5fc88e6022;UnitType;C;코스트센터;N;0;OcrCode5사용;;2022-08-28;manager;2022-08-28;manager
+b5df6d37-66a2-4ce1-b91c-be5fc88e1163;b5df6d37-66a2-4ce1-b91c-be5fc88e6023;ZTAS828;A;간주임대료 주소지 필요;Y;;;;2022-08-28;manager;2022-08-28;manager
