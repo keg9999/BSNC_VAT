@@ -31,52 +31,52 @@ annotate service.BSNC_VAT_0020L with @(
         {
             $Type : 'UI.DataField',
             Value : TAXCODE,
-            //![@HTML5.CssDefaults] : {width : '7rem'}  //컬럼 사이즈
+            ![@HTML5.CssDefaults] : {width : '7rem'}  //컬럼 사이즈
         },
         {
             $Type : 'UI.DataField',
             Value : TAXNAME,
-            //![@HTML5.CssDefaults] : {width : '15rem'}
+            ![@HTML5.CssDefaults] : {width : '15rem'}
         },
         {
             $Type : 'UI.DataField',
             Value : TAXTYPE_CODE,
-            //![@HTML5.CssDefaults] : {width : '5rem'}
+            ![@HTML5.CssDefaults] : {width : '7rem'}
         },
         {
             $Type : 'UI.DataField',
             Value : ETAX_CODE,
-            //![@HTML5.CssDefaults] : {width : '5rem'}
+            ![@HTML5.CssDefaults] : {width : '7rem'}
         },
         {
             $Type : 'UI.DataField',
             Value : FIXTAX_CODE,
-            //![@HTML5.CssDefaults] : {width : '15rem'}
+            ![@HTML5.CssDefaults] : {width : '7rem'}
         },
         {
             $Type : 'UI.DataField',
             Value : NONDEDCT_CODE,
-            //![@HTML5.CssDefaults] : {width : '15rem'}
+            ![@HTML5.CssDefaults] : {width : '7rem'}
         },
                 {
             $Type : 'UI.DataField',
             Value : CREDITCD_CODE,
-            //![@HTML5.CssDefaults] : {width : '5rem'}
+            ![@HTML5.CssDefaults] : {width : '7rem'}
         },
         {
             $Type : 'UI.DataField',
             Value : DEEMTAX,
-            //![@HTML5.CssDefaults] : {width : '5rem'}
+            ![@HTML5.CssDefaults] : {width : '7rem'}
         },
         {
             $Type : 'UI.DataField',
             Value : ETCTAX,
-            //![@HTML5.CssDefaults] : {width : '15rem'}
+            ![@HTML5.CssDefaults] : {width : '7rem'}
         },
         {
             $Type : 'UI.DataField',
             Value : REMARK,
-            //![@HTML5.CssDefaults] : {width : '15rem'}
+            ![@HTML5.CssDefaults] : {width : '7rem'}
         }
     ]
 );

@@ -132,23 +132,9 @@
                         "settings": {
                             "editableHeaderContent": false,
                             "entitySet": "BSNC_VAT_0110H",
-                            "content": {
-                                "header": {
-                                    "anchorBarVisible": true,
-                                    "visible": true,
-                                    "actions": {
-                                        "CustomActionOPHeader": {
-                                            "press": "sap.ui.BSNC_VAT_0110.ext.CustomActions.messageBox",
-                                            "enabled": "{= ${ui>/editMode} !== 'Editable'}",
-                                            "visible": true,
-                                            "text": "파일생성"
-                                        }
-                                    }
-                                }
-                            },
                             "navigation": {},
                             "controlConfiguration": {
-                                "BSNC_VAT_0040L/@com.sap.vocabularies.UI.v1.LineItem": {
+                                "BSNC_VAT_0110L/@com.sap.vocabularies.UI.v1.LineItem": {
                                     "tableSettings": {
                                         "type": "ResponsiveTable",
                                         "personalization": {
@@ -158,6 +144,20 @@
                                         "creationMode": {
                                             "name": "Inline",
                                             "createAtEnd": true
+                                        }
+                                    }
+                                }
+                            },
+                            "content": {
+                                "header": {
+                                    "anchorBarVisible": true,
+                                    "visible": true,
+                                    "actions": {
+                                        "CustomActionOPHeader": {
+                                            "press": "ns.bsncvat0110.ext.CustomActions.createTxt",
+                                            "enabled": "{= ${ui>/editMode} !== 'Editable'}",
+                                            "visible": true,
+                                            "text": "파일생성"
                                         }
                                     }
                                 }
