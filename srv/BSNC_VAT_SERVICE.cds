@@ -8,9 +8,9 @@ using { sap.ui.BSNC_VAT_0060 as my0060 } from '../db/BSNC_VAT_0060';
 using { sap.ui.BSNC_VAT_0080 as my0080 } from '../db/BSNC_VAT_0080';
 using { sap.ui.BSNC_VAT_0110 as my0110 } from '../db/BSNC_VAT_0110';
 
-
 @path:'service/BSNC_VAT'
 service BSNC_VAT_0000_SERVICE {
+  
   entity BSNC_VAT_0000H as projection on my0000.BSNC_VAT_0000H;
     annotate BSNC_VAT_0000H with @odata.draft.enabled;
   entity BSNC_VAT_0000L as projection on my0000.BSNC_VAT_0000L;

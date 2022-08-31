@@ -6,15 +6,12 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@sap/cds": ">=5",
+    "@sap/cds": "^6",
+    "@sap/hana-client": "^2.13.22",
+    "@sap/xssec": "^3",
     "express": "^4",
     "hdb": "^0.19.0",
-    "@sap/xssec": "^3",
     "passport": "^0"
-  },
-  "devDependencies": {
-    "@sap/ux-specification": "^1.102.4",
-    "sqlite3": "^5.0.4"
   },
   "engines": {
     "node": "^16"
@@ -29,7 +26,10 @@
     "watch-bsnc_vat_0050": "cds watch --open bsnc_vat_0050/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-bsnc_vat_0060": "cds watch --open bsnc_vat_0060/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-bsnc_vat_0080": "cds watch --open bsnc_vat_0080/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-bsnc_vat_0110": "cds watch --open bsnc_vat_0110/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-bsnc_vat_0110": "cds watch --open bsnc_vat_0110/webapp/index.html?sap-ui-xx-viewCache=false",
+    "undeploy": "cf undeploy BSNC_VAT --delete-services --delete-service-keys --delete-service-brokers",
+    "build": "rimraf resources mta_archives && mbt build --mtar archive",
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -68,17 +68,26 @@
     "app/bsnc_vat_0110"
   ],
   "cds": {
-    "requires": {
-      "[production]": {
-        "db": {
-          "kind": "hana-cloud"
+    "build": {
+      "tasks": [
+        {
+          "for": "hana",
+          "dest": "../db"
         },
-        "auth": {
-          "kind": "xsuaa"
+        {
+          "for": "node-cf"
         }
-      },
+      ]
+    },
+    "requires": {
       "db": {
-        "kind": "sql"
+        "kind": "hana-cloud"
+      },
+      "auth": {
+        "kind": "xsuaa"
+      },
+      "approuter": {
+        "kind": "cloudfoundry"
       }
     }
   }

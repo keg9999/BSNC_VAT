@@ -31,7 +31,7 @@ entity BSNC_VAT_0030L{
     P_OBJECTNUM : Association to one BSNC_VAT_0030H; 	//BSNC_VAT_0030H.OBJECTNUM	   
     //CODE : Association to one BSNC_VAT_0030H;
     //LINEID : Integer; 		
-    //CODE : String(30);      	
+    CODE : String(30);      	
     LCODE :	String(30);		//하위코드
     LNAME : String(100);    //하위이름
     REMARK : String(200);	

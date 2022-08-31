@@ -15,6 +15,18 @@
             "version": "0.3.6",
             "toolsId": "b39b6bd3-5943-49eb-b28b-f121f8fea1fd"
         },
+        "crossNavigation": {
+            "inbounds": {
+                "Risks-display": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Risks",
+                    "action": "display"
+                }
+            }
+        },
         "dataSources": {
             "mainService": {
                 "uri": "/bsnc-vat-0010-service/",
@@ -157,5 +169,9 @@
     "sap.fiori": {
         "registrationIds": [],
         "archeType": "transactional"
+    },
+    "sap.cloud": {
+        "public": true,
+        "service": "BSNC_VAT.service"
     }
 }
