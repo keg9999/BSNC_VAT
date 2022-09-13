@@ -31,8 +31,7 @@
     "build": "rimraf resources mta_archives && mbt build --mtar archive",
     "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
     "watch-bsnc_vat_0090": "cds watch --open bsnc_vat_0090/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-bsnc_vat_0100": "cds watch --open bsnc_vat_0100/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch": "cds watch"
+    "watch-bsnc_vat_0100": "cds watch --open bsnc_vat_0100/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
