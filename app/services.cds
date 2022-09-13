@@ -55,3 +55,5 @@ using from './bsnc_vat_0110/labels';
 using from './bsnc_vat_0110/layouts_0110H';
 using from './bsnc_vat_0110/layouts_0110L';
 //using from './bsnc_vat_0110/value_help';
+
+using from './bsnc_vat_0120/annotations';

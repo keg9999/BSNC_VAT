@@ -1,0 +1,158 @@
+{
+  "_version": "1.40.0",
+  "sap.app": {
+    "id": "ns.bsncvat0120",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap-ux/fiori-elements-writer:lrop",
+      "version": "0.3.6",
+      "toolsId": "a61f1ca7-40d9-41ea-ad5f-36d2f629100d"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/bsnc-vat-0120-service/",
+        "type": "OData",
+        "settings": {
+          "annotations": [
+            "annotation"
+          ],
+          "localUri": "localService/metadata.xml",
+          "odataVersion": "4.0"
+        }
+      },
+      "annotation": {
+        "type": "ODataAnnotation",
+        "uri": "annotations/annotation.xml",
+        "settings": {
+          "localUri": "annotations/annotation.xml"
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.102.1",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.ushell": {},
+        "sap.fe.templates": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "ns.bsncvat0120.i18n.i18n"
+        }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "synchronizationMode": "None",
+          "operationMode": "Server",
+          "autoExpandSelect": true,
+          "earlyRequests": true
+        }
+      },
+      "@i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "uri": "i18n/i18n.properties"
+      }
+    },
+    "resources": {
+      "css": []
+    },
+    "routing": {
+      "config": {},
+      "routes": [
+        {
+          "pattern": ":?query:",
+          "name": "BSNC_VAT_0120HList",
+          "target": "BSNC_VAT_0120HList"
+        },
+        {
+          "pattern": "BSNC_VAT_0120H({key}):?query:",
+          "name": "BSNC_VAT_0120HObjectPage",
+          "target": "BSNC_VAT_0120HObjectPage"
+        }
+      ],
+      "targets": {
+        "BSNC_VAT_0120HList": {
+          "type": "Component",
+          "id": "BSNC_VAT_0120HList",
+          "name": "sap.fe.templates.ListReport",
+          "options": {
+            "settings": {
+              "entitySet": "BSNC_VAT_0120H",
+              "variantManagement": "Page",
+              "navigation": {
+                "BSNC_VAT_0120H": {
+                  "detail": {
+                    "route": "BSNC_VAT_0120HObjectPage"
+                  }
+                }
+              },
+              "content": {
+                "header": {
+                    "actions": {
+                        "CustomActionLRGlobal": {
+                            "press": "ns.bsncvat0120.ext.CustomActions.messageBox",
+                            "enabled": "ns.bsncvat0120.ext.CustomActions.enabled",
+                            "visible": true,
+                            "text": "자료집계"
+                        }
+                    }
+                }
+            }
+            }
+          }
+        },
+        "BSNC_VAT_0120HObjectPage": {
+          "type": "Component",
+          "id": "BSNC_VAT_0120HObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "editableHeaderContent": false,
+              "entitySet": "BSNC_VAT_0120H"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sap.fiori": {
+    "registrationIds": [],
+    "archeType": "transactional"
+  }
+}

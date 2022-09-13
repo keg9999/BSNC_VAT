@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema Namespace="BSNC_VAT_0120_SERVICE" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+            <EntityContainer Name="EntityContainer">
+                <EntitySet Name="BSNC_VAT_0120H" EntityType="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H">
+                    <NavigationPropertyBinding Path="SiblingEntity" Target="BSNC_VAT_0120H"/>
+                </EntitySet>
+            </EntityContainer>
+            <EntityType Name="BSNC_VAT_0120H">
+                <Key>
+                    <PropertyRef Name="OBJECTNUM"/>
+                    <PropertyRef Name="IsActiveEntity"/>
+                </Key>
+                <Property Name="createdAt" Type="Edm.DateTimeOffset" Precision="7"/>
+                <Property Name="createdBy" Type="Edm.String" MaxLength="255"/>
+                <Property Name="modifiedAt" Type="Edm.DateTimeOffset" Precision="7"/>
+                <Property Name="modifiedBy" Type="Edm.String" MaxLength="255"/>
+                <Property Name="COMPANYCD" Type="Edm.String" MaxLength="20" DefaultValue="ZZ"/>
+                <Property Name="OBJECTCODE" Type="Edm.String" MaxLength="50" DefaultValue="BSNC_VAT_0120"/>
+                <Property Name="OBJECTNUM" Type="Edm.Guid" Nullable="false"/>
+                <Property Name="CANCELED" Type="Edm.String" DefaultValue="N"/>
+                <Property Name="COMMIT" Type="Edm.String" MaxLength="10" DefaultValue="COMMIT"/>
+                <Property Name="UNACTIVE" Type="Edm.String" MaxLength="1" DefaultValue="N"/>
+                <Property Name="STRDATE" Type="Edm.Date" DefaultValue="2000-01-01"/>
+                <Property Name="ENDDATE" Type="Edm.Date" DefaultValue="2100-12-31"/>
+                <Property Name="YEAR" Type="Edm.String" MaxLength="4"/>
+                <Property Name="GUBUN" Type="Edm.String" MaxLength="2"/>
+                <Property Name="MM" Type="Edm.String" MaxLength="2"/>
+                <Property Name="BPLID" Type="Edm.String" MaxLength="10"/>
+                <Property Name="CONFIRM" Type="Edm.String" MaxLength="1"/>
+                <Property Name="ETISTVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="OZETAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="OZEEAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="OYENAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="OYENVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="OBEDVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="OSUMAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="OSUMVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IGETAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IGETVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="ETIBEVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IFITAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IFITVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IYENAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IYENVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IPURAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IPURVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IETCAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IETCVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="ISUMAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="ETITOAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="ISUMVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="INONAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="INONVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IDEDAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="IDEDVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="SDATE" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="PAYRVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="ETGTVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="CRCDVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="GGATVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="WKTNUM" Type="Edm.String" MaxLength="15"/>
+                <Property Name="YENRVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="YENOVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="GOLDVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="ADDTVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="CGPRVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="TOPRVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="EDATE" Type="Edm.Date"/>
+                <Property Name="BANKCODE" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="BANKNAME" Type="Edm.String" MaxLength="30"/>
+                <Property Name="ACCTNUM" Type="Edm.String" MaxLength="20"/>
+                <Property Name="ETITOVAT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="CLOSDATE" Type="Edm.Date"/>
+                <Property Name="CLOSREAS" Type="Edm.String" MaxLength="20"/>
+                <Property Name="MAKEDATE" Type="Edm.Date"/>
+                <Property Name="INDUSTR1" Type="Edm.String" MaxLength="30"/>
+                <Property Name="BUSINES1" Type="Edm.String" MaxLength="30"/>
+                <Property Name="BCATCOD1" Type="Edm.String" MaxLength="6"/>
+                <Property Name="STANAMT1" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="COMPANY" Type="Edm.String" MaxLength="50"/>
+                <Property Name="INDUSTR2" Type="Edm.String" MaxLength="30"/>
+                <Property Name="BUSINES2" Type="Edm.String" MaxLength="30"/>
+                <Property Name="NOIAMT" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="BCATCOD2" Type="Edm.String" MaxLength="6"/>
+                <Property Name="STANAMT2" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="INDUSTR3" Type="Edm.String" MaxLength="30"/>
+                <Property Name="BUSINES3" Type="Edm.String" MaxLength="30"/>
+                <Property Name="BCATCOD3" Type="Edm.String" MaxLength="6"/>
+                <Property Name="STANAMT3" Type="Edm.Decimal" Scale="0" Precision="19"/>
+                <Property Name="BUSINES4" Type="Edm.String" MaxLength="30"/>
+                <Property Name="BCATCOD4" Type="Edm.String" MaxLength="6"/>
+                <Property Name="REPNAME" Type="Edm.String" MaxLength="30"/>
+                <Property Name="STANAMT4" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="NOIVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="STANAMTT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEOTAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEOTVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEOEAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEOEVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEOZAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEOZEAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEOTOAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEOTOVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="VATREGNO" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="NOICOAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEITAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEITVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEIEAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEIEVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEITOAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="YEITOVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETICGAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETICGVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETICFAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETICFVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="NOICOVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="BRANCH" Type="Edm.String" MaxLength="30"/>
+                <Property Name="NOIBEAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADDID" Type="Edm.String" MaxLength="14"/>
+                <Property Name="NOIBEVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="NOITOAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="NOITOVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETGESVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADDTNUM" Type="Edm.String" MaxLength="15"/>
+                <Property Name="ETGEIVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETGTRVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETGCOVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETGCAVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETGETVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETIDEAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETGTOVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADURAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADURVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADTDSAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADTDSVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="MNUM" Type="Edm.String" MaxLength="15"/>
+                <Property Name="ADTDRAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADTDRVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADTNSAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADTNSVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETIDEVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADETDAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADETDVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADETNAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADETNVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADTRNAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADTRNVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="BPLADDR" Type="Edm.String" MaxLength="70"/>
+                <Property Name="ADTRDAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADTRDVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRNGAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETIREAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRNGVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRNUAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRNUVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRRGAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRRGVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRRUAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRRUVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="EMAADDR" Type="Edm.String" MaxLength="50"/>
+                <Property Name="ADPAYAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADPAYVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETIREVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADZERAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADZERVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADCASAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADCASVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRENAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADRENVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADTOVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="FREINDU1" Type="Edm.String" MaxLength="30"/>
+                <Property Name="INDUSTRY" Type="Edm.String" MaxLength="30"/>
+                <Property Name="FREBUSI1" Type="Edm.String" MaxLength="30"/>
+                <Property Name="ETIGOAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="FRECODE1" Type="Edm.String" MaxLength="30"/>
+                <Property Name="FREAMT1" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="FREINDU2" Type="Edm.String" MaxLength="30"/>
+                <Property Name="FREBUSI2" Type="Edm.String" MaxLength="30"/>
+                <Property Name="FRECODE2" Type="Edm.String" MaxLength="6"/>
+                <Property Name="FREAMT2" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="FREINDU3" Type="Edm.String" MaxLength="30"/>
+                <Property Name="FREBUSI3" Type="Edm.String" MaxLength="30"/>
+                <Property Name="FRECODE3" Type="Edm.String" MaxLength="6"/>
+                <Property Name="BUSINESS" Type="Edm.String" MaxLength="50"/>
+                <Property Name="ETIGOVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="FREAMT3" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="FRETOAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="BILGAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="BILAAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="PROVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETITRVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADACTAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADACTVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADACDAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ADACDVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETICHVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="BCATCODE" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="OBITAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="OBITVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="OBIPAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="OBIPVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="OBICAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="OBICVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="OBIEAMT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="OBIEVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="CRECARDVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="ETGPRVAT" Type="Edm.Decimal" Scale="6" Precision="19"/>
+                <Property Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="true"/>
+                <Property Name="HasActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+                <Property Name="HasDraftEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+                <NavigationProperty Name="DraftAdministrativeData" Type="BSNC_VAT_0120_SERVICE.DraftAdministrativeData" ContainsTarget="true"/>
+                <NavigationProperty Name="SiblingEntity" Type="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H"/>
+            </EntityType>
+            <EntityType Name="DraftAdministrativeData">
+                <Key>
+                    <PropertyRef Name="DraftUUID"/>
+                </Key>
+                <Property Name="DraftUUID" Type="Edm.Guid" Nullable="false"/>
+                <Property Name="CreationDateTime" Type="Edm.DateTimeOffset" Precision="7"/>
+                <Property Name="CreatedByUser" Type="Edm.String" MaxLength="256"/>
+                <Property Name="DraftIsCreatedByMe" Type="Edm.Boolean"/>
+                <Property Name="LastChangeDateTime" Type="Edm.DateTimeOffset" Precision="7"/>
+                <Property Name="LastChangedByUser" Type="Edm.String" MaxLength="256"/>
+                <Property Name="InProcessByUser" Type="Edm.String" MaxLength="256"/>
+                <Property Name="DraftIsProcessedByMe" Type="Edm.Boolean"/>
+            </EntityType>
+            <Action Name="draftPrepare" IsBound="true" EntitySetPath="in">
+                <Parameter Name="in" Type="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H"/>
+                <Parameter Name="SideEffectsQualifier" Type="Edm.String"/>
+                <ReturnType Type="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H"/>
+            </Action>
+            <Action Name="draftActivate" IsBound="true" EntitySetPath="in">
+                <Parameter Name="in" Type="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H"/>
+                <ReturnType Type="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H"/>
+            </Action>
+            <Action Name="draftEdit" IsBound="true" EntitySetPath="in">
+                <Parameter Name="in" Type="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H"/>
+                <Parameter Name="PreserveChanges" Type="Edm.Boolean"/>
+                <ReturnType Type="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H"/>
+            </Action>
+            <Annotations Target="BSNC_VAT_0120_SERVICE.EntityContainer/BSNC_VAT_0120H">
+                <Annotation Term="Common.DraftRoot">
+                    <Record Type="Common.DraftRootType">
+                        <PropertyValue Property="ActivationAction" String="BSNC_VAT_0120_SERVICE.draftActivate"/>
+                        <PropertyValue Property="EditAction" String="BSNC_VAT_0120_SERVICE.draftEdit"/>
+                        <PropertyValue Property="PreparationAction" String="BSNC_VAT_0120_SERVICE.draftPrepare"/>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H/createdAt">
+                <Annotation Term="UI.HiddenFilter" Bool="true"/>
+                <Annotation Term="Core.Immutable" Bool="true"/>
+                <Annotation Term="Core.Computed" Bool="true"/>
+                <Annotation Term="Common.Label" String="{i18n>CreatedAt}"/>
+                </Annotations>
+                <Annotations Target="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H/createdBy">
+                    <Annotation Term="UI.HiddenFilter" Bool="true"/>
+                    <Annotation Term="Core.Immutable" Bool="true"/>
+                    <Annotation Term="Core.Computed" Bool="true"/>
+                    <Annotation Term="Core.Description" String="{i18n>UserID.Description}"/>
+                        <Annotation Term="Common.Label" String="{i18n>CreatedBy}"/>
+                        </Annotations>
+                        <Annotations Target="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H/modifiedAt">
+                            <Annotation Term="UI.HiddenFilter" Bool="true"/>
+                            <Annotation Term="Core.Computed" Bool="true"/>
+                            <Annotation Term="Common.Label" String="{i18n>ChangedAt}"/>
+                            </Annotations>
+                            <Annotations Target="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H/modifiedBy">
+                                <Annotation Term="UI.HiddenFilter" Bool="true"/>
+                                <Annotation Term="Core.Computed" Bool="true"/>
+                                <Annotation Term="Core.Description" String="{i18n>UserID.Description}"/>
+                                    <Annotation Term="Common.Label" String="{i18n>ChangedBy}"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H/IsActiveEntity">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H/HasActiveEntity">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H/HasDraftEntity">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0120_SERVICE.BSNC_VAT_0120H/DraftAdministrativeData">
+                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                    </Annotations>
+                                    <Annotations Target="BSNC_VAT_0120_SERVICE.DraftAdministrativeData">
+                                        <Annotation Term="Common.Label" String="{i18n>Draft_DraftAdministrativeData}"/>
+                                        </Annotations>
+                                        <Annotations Target="BSNC_VAT_0120_SERVICE.DraftAdministrativeData/DraftUUID">
+                                            <Annotation Term="UI.Hidden" Bool="true"/>
+                                            <Annotation Term="Common.Label" String="{i18n>Draft_DraftUUID}"/>
+                                            </Annotations>
+                                            <Annotations Target="BSNC_VAT_0120_SERVICE.DraftAdministrativeData/CreationDateTime">
+                                                <Annotation Term="Common.Label" String="{i18n>Draft_CreationDateTime}"/>
+                                                </Annotations>
+                                                <Annotations Target="BSNC_VAT_0120_SERVICE.DraftAdministrativeData/CreatedByUser">
+                                                    <Annotation Term="Common.Label" String="{i18n>Draft_CreatedByUser}"/>
+                                                    </Annotations>
+                                                    <Annotations Target="BSNC_VAT_0120_SERVICE.DraftAdministrativeData/DraftIsCreatedByMe">
+                                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                                        <Annotation Term="Common.Label" String="{i18n>Draft_DraftIsCreatedByMe}"/>
+                                                        </Annotations>
+                                                        <Annotations Target="BSNC_VAT_0120_SERVICE.DraftAdministrativeData/LastChangeDateTime">
+                                                            <Annotation Term="Common.Label" String="{i18n>Draft_LastChangeDateTime}"/>
+                                                            </Annotations>
+                                                            <Annotations Target="BSNC_VAT_0120_SERVICE.DraftAdministrativeData/LastChangedByUser">
+                                                                <Annotation Term="Common.Label" String="{i18n>Draft_LastChangedByUser}"/>
+                                                                </Annotations>
+                                                                <Annotations Target="BSNC_VAT_0120_SERVICE.DraftAdministrativeData/InProcessByUser">
+                                                                    <Annotation Term="Common.Label" String="{i18n>Draft_InProcessByUser}"/>
+                                                                    </Annotations>
+                                                                    <Annotations Target="BSNC_VAT_0120_SERVICE.DraftAdministrativeData/DraftIsProcessedByMe">
+                                                                        <Annotation Term="UI.Hidden" Bool="true"/>
+                                                                        <Annotation Term="Common.Label" String="{i18n>Draft_DraftIsProcessedByMe}"/>
+                                                                        </Annotations>
+                                                                    </Schema>
+                                                                </edmx:DataServices>
+                                                            </edmx:Edmx>

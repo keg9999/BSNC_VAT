@@ -5,7 +5,8 @@ using { managed } from '@sap/cds/common';
 
 //중복X 필드
 @assert.unique: {
-  CODE: [ CODE ]
+  YEAR: [ YEAR ],
+  GUBUN: [GUBUN]
 }
 entity BSNC_VAT_0130H : managed{
     COMPANYCD : String(20) default 'ZZ';	//회사코드
