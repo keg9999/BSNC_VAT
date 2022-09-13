@@ -29,7 +29,10 @@
     "watch-bsnc_vat_0110": "cds watch --open bsnc_vat_0110/webapp/index.html?sap-ui-xx-viewCache=false",
     "undeploy": "cf undeploy BSNC_VAT --delete-services --delete-service-keys --delete-service-brokers",
     "build": "rimraf resources mta_archives && mbt build --mtar archive",
-    "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
+    "watch-bsnc_vat_0090": "cds watch --open bsnc_vat_0090/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-bsnc_vat_0100": "cds watch --open bsnc_vat_0100/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch": "cds watch"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -65,7 +68,9 @@
     "app/bsnc_vat_0050",
     "app/bsnc_vat_0060",
     "app/bsnc_vat_0080",
-    "app/bsnc_vat_0110"
+    "app/bsnc_vat_0110",
+    "app/bsnc_vat_0090",
+    "app/bsnc_vat_0100"
   ],
   "cds": {
     "build": {
@@ -90,5 +95,8 @@
         "kind": "cloudfoundry"
       }
     }
+  },
+  "devDependencies": {
+    "@sap/ux-specification": "^1.102.4"
   }
 }

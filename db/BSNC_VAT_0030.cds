@@ -24,7 +24,7 @@ entity BSNC_VAT_0030H : managed{
     BSNC_VAT_0030L : Composition of many BSNC_VAT_0030L on BSNC_VAT_0030L.P_OBJECTNUM = $self;
 }
 @assert.unique: {
-  CODE: [ LCODE ],
+  LCODE: [ LCODE ],
 }
 entity BSNC_VAT_0030L{
     key OBJECTNUM : UUID;

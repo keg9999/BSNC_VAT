@@ -150,7 +150,7 @@
                                     "visible": true,
                                     "actions": {
                                         "CustomActionOPHeader": {
-                                            "press": "sap.ui.BSNC_VAT_0110.ext.CustomActions.messageBox",
+                                            "press": "ns.bsncvat0110.ext.CustomActions.createTxt",
                                             "enabled": "{= ${ui>/editMode} !== 'Editable'}",
                                             "visible": true,
                                             "text": "파일생성"

@@ -47,7 +47,12 @@ using from './bsnc_vat_0060/layouts_0060H_UI';
 using from './bsnc_vat_0080/layouts_0080H';
 using from './bsnc_vat_0080/labels';
 
+//bsnc_vat_0090
+using from './bsnc_vat_0090/layouts_0090H_UI';
 
+//bsnc_vat_0100
+using from './bsnc_vat_0100/layouts_0100_UIH';
+using from './bsnc_vat_0100/layouts_0100_UIL';
 
 //bsnc_vat_0110 신고파일생성
 using from './bsnc_vat_0110/field-control';
@@ -55,3 +60,4 @@ using from './bsnc_vat_0110/labels';
 using from './bsnc_vat_0110/layouts_0110H';
 using from './bsnc_vat_0110/layouts_0110L';
 //using from './bsnc_vat_0110/value_help';
+
